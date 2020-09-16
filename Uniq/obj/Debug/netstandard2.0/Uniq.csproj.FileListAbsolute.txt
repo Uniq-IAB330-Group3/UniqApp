@@ -38,3 +38,12 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
+C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\Uniq.deps.json
+C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\Uniq.dll
+C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\ref\Uniq.dll
+C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\Uniq.pdb
+C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.AssemblyInfoInputs.cache
+C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.AssemblyInfo.cs
+C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.dll
+C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\ref\Uniq.dll
+C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.pdb

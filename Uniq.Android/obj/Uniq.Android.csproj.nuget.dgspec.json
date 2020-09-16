@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.Android/Uniq.Android.csproj": {}
+    "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq.Android\\Uniq.Android.csproj": {}
   },
   "projects": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.Android/Uniq.Android.csproj": {
+    "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq.Android\\Uniq.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.Android/Uniq.Android.csproj",
+        "projectUniqueName": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq.Android\\Uniq.Android.csproj",
         "projectName": "Uniq.Android",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.Android/Uniq.Android.csproj",
-        "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.Android/obj/",
+        "projectPath": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq.Android\\Uniq.Android.csproj",
+        "packagesPath": "C:\\Users\\tonet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/Tom/.config/NuGet/NuGet.Config"
+          "C:\\Users\\tonet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj": {
-                "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj"
+              "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq\\Uniq.csproj": {
+                "projectPath": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq\\Uniq.csproj"
               }
             }
           }
@@ -48,25 +54,29 @@
         }
       }
     },
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj": {
+    "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq\\Uniq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj",
+        "projectUniqueName": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq\\Uniq.csproj",
         "projectName": "Uniq",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj",
-        "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/",
+        "projectPath": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq\\Uniq.csproj",
+        "packagesPath": "C:\\Users\\tonet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tonet\\source\\repos\\UniqApp\\Uniq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Tom/.config/NuGet/NuGet.Config"
+          "C:\\Users\\tonet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,6 +99,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -108,7 +122,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
