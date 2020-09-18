@@ -1,49 +1,40 @@
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/bin/Debug/netstandard2.0/Uniq.deps.json
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/bin/Debug/netstandard2.0/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/bin/Debug/netstandard2.0/Uniq.pdb
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Uniq.csprojAssemblyReference.cache
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Views/AnnouncementsPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfoInputs.cache
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfo.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Uniq.csproj.CoreCompileInputs.cache
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/XamlC.stamp
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/bin/Debug/netstandard2.0/Uniq.deps.json
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/bin/Debug/netstandard2.0/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/bin/Debug/netstandard2.0/Uniq.pdb
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.csprojAssemblyReference.cache
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Views/AnnouncementsPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfoInputs.cache
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfo.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.csproj.CoreCompileInputs.cache
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/XamlC.stamp
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
-C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\Uniq.deps.json
-C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\Uniq.dll
-C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\ref\Uniq.dll
-C:\Users\tonet\source\repos\UniqApp\Uniq\bin\Debug\netstandard2.0\Uniq.pdb
-C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.AssemblyInfoInputs.cache
-C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.AssemblyInfo.cs
-C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.dll
-C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\ref\Uniq.dll
-C:\Users\tonet\source\repos\UniqApp\Uniq\obj\Debug\netstandard2.0\Uniq.pdb
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/bin/Debug/netstandard2.0/Uniq.deps.json
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/bin/Debug/netstandard2.0/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/bin/Debug/netstandard2.0/Uniq.pdb
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Uniq.csprojAssemblyReference.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Views/AnnouncementsPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfoInputs.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfo.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Uniq.csproj.CoreCompileInputs.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.deps.json
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.pdb
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.csprojAssemblyReference.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AnnouncementsPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfoInputs.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfo.cs
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.csproj.CoreCompileInputs.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.pdb

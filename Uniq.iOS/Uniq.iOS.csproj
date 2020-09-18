@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D81B7438-2AC1-4E89-B9B9-31B8DC527882}</ProjectGuid>
+    <ProjectGuid>{B5210340-D785-4C19-9AB7-3EF830BA1158}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{89a4fe7c-635d-49c9-8d8c-5cd363c0d68d}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -123,6 +123,11 @@
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <BundleResource Include="Resources\announcements.png" />
+    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\profile.png" />
+    <BundleResource Include="Resources\announcementsSmall.png" />
+    <BundleResource Include="Resources\filter.png" />
+    <BundleResource Include="Resources\sortBy.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -133,17 +138,14 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Uniq\Uniq.csproj">
-      <Project>{30C00641-F617-4196-80A7-5CB069A0FFC9}</Project>
+      <Project>{1CA0D9E2-B262-4535-B0FB-45044AFA035B}</Project>
       <Name>Uniq</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\announcements%402x.png" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{331E4EF5-3C3E-48EF-8D6C-80011D7763D7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.04DB7796-D167-43E8-9952-1B7F0ECBD128" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Views/AnnouncementsPage.xaml">
+    <Files>
+      <File FileName="Uniq/AppShell.xaml" Line="34" Column="15" />
+      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="68" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Uniq" expanded="True">
+            <Node name="Uniq" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AboutPage.xaml" expanded="True" />
+                <Node name="AnnouncementsPage.xaml" expanded="True" selected="True" />
+                <Node name="ItemDetailPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Uniq.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

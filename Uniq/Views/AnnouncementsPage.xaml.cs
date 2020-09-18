@@ -10,8 +10,7 @@ namespace Uniq.Views
         public AnnouncementsPage()
         {
             InitializeComponent();
-
-            BindingContext = new AnnouncementsPage();
+            BindingContext = new AnnouncementsViewModel();
         }
     }
 }
