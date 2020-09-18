@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.iOS/Uniq.iOS.csproj": {}
+    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj": {}
   },
   "projects": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.iOS/Uniq.iOS.csproj": {
+    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.iOS/Uniq.iOS.csproj",
+        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
         "projectName": "Uniq.iOS",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.iOS/Uniq.iOS.csproj",
+        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
         "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.iOS/obj/",
+        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj": {
-                "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj"
+              "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {
+                "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj"
               }
             }
           }
@@ -42,7 +42,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1364, )"
+              "version": "[4.6.0.1141, )"
             }
           }
         }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj": {
+    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj",
+        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
         "projectName": "Uniq",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/Uniq.csproj",
+        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
         "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq/obj/",
+        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -106,7 +106,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1364, )"
+              "version": "[4.6.0.1141, )"
             }
           },
           "imports": [

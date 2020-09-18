@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s4NihjuaLYlwONBU0KC8EVqN1eBLfuuf6uNjZjtYn5NRKlGd2JYHmPfy5aG0Nqv8rqI16aJdG4wFF+yAdHwp3g==",
+  "dgSpecHash": "fHM7iezYO1mx3T/upvi30AvScO4qA7XleZzPn6w1YsCqndjYFEtzvE0IFWUTLHyGHHt32E9u9CbRAp/xjHg3aw==",
   "success": true,
-  "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.Android/Uniq.Android.csproj",
+  "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/Uniq.Android.csproj",
   "expectedPackageFiles": [
     "/Users/Tom/.nuget/packages/xamarin.android.arch.core.common/1.1.1.3/xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.android.arch.core.runtime/1.1.1.3/xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
@@ -42,7 +42,7 @@
     "/Users/Tom/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1364/xamarin.forms.4.8.0.1364.nupkg.sha512"
+    "/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }

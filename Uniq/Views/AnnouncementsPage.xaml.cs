@@ -1,15 +1,16 @@
-﻿using System.ComponentModel;
-using Xamarin.Forms;
+﻿using System;
+using System.Collections.Generic;
 using Uniq.ViewModels;
+using Xamarin.Forms;
 
 namespace Uniq.Views
 {
-    public partial class ItemDetailPage : ContentPage
+    public partial class AnnouncementsPage : ContentPage
     {
-        public ItemDetailPage()
+        public AnnouncementsPage()
         {
             InitializeComponent();
-            BindingContext = new ItemDetailViewModel();
+            BindingContext = new AnnouncementsViewModel();
         }
     }
 }

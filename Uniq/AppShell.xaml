@@ -24,12 +24,12 @@
     </Shell.Resources>
     <TabBar>
         <Tab Title="About" Icon="tab_about.png" Route="AboutPage">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
+            <ShellContent  ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab> 
         <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent  ContentTemplate="{DataTemplate local:ItemsPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </Tab>
-        <Tab Title="Announcements" Icon="announcements.png" >
+        <Tab Title="Announcements" Icon="announcementsSmall.png">
             <ShellContent  ContentTemplate="{DataTemplate local:AnnouncementsPage}" />
         </Tab>
     </TabBar>

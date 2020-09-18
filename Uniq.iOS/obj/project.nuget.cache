@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pQVGiPnIdbegUM4clk4Bp48tmeQAYAmmRE6Odi4OI6wlXJl3J9z/1xZ1RMbu5fysiOv8YeoxeY5Ja5k+Woq9tQ==",
+  "dgSpecHash": "HbVCxL1YKoIcfeLi6VlwzZffnkF8ei29VYXE9dh+3mCXE+JAGoJMbvBkcDeCqF+fIAWGFWJspLly5GAZI0LoHg==",
   "success": true,
-  "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2 OLD/Uniq.iOS/Uniq.iOS.csproj",
+  "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/Tom/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1364/xamarin.forms.4.8.0.1364.nupkg.sha512"
+    "/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }
