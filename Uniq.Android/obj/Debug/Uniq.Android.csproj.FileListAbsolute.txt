@@ -491,7 +491,10 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/R.txt
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/R.cs.flag
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/Uniq.Android.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/XamlC.stamp
+=======
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/Uniq.Android.csproj.CopyComplete
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/Uniq.Android.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/Uniq.Android.pdb
@@ -524,6 +527,14 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/announcementssmall.png
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/filter.png
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/sortby.png
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/user1.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/user2.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/user3.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/user4.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/user5.png
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/uploadflags.txt
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/resolvedassemblies.hash
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/assets/FormsViewGroup.dll
@@ -685,10 +696,19 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/DataChangeObserver.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/DatePickerRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/DatePickerRendererBase_1.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/DragAndDropGestureHandler.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EdgeSnapHelper.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EditorEditText.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EditorRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EditorRendererBase_1.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EllipseRenderer.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EllipseView.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EmptyViewAdapter.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EndSingleSnapHelper.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/EndSnapHelper.java
@@ -718,6 +738,11 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GenericGlobalLayoutListener.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GenericMenuClickListener.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GestureManager_TapAndPanGestureDetector.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GradientStrokeDrawable.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GradientStrokeDrawable_GradientShaderFactory.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GridLayoutSpanSizeLookup.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GroupableItemsViewAdapter_2.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/GroupableItemsViewRenderer_3.java
@@ -733,6 +758,11 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ItemsViewAdapter_2.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ItemsViewRenderer_3.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/LabelRenderer.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/LineRenderer.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/LineView.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ListViewAdapter.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ListViewRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ListViewRenderer_Container.java
@@ -753,15 +783,32 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PageExtensions_EmbeddedFragment.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PageExtensions_EmbeddedSupportFragment.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PageRenderer.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PathRenderer.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PathView.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PickerEditText.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PickerManager_PickerListener.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PickerRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PlatformRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/Platform_DefaultRenderer.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PolygonRenderer.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PolygonView.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PolylineRenderer.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PolylineView.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PositionalSmoothScroller.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/PowerSaveModeBroadcastReceiver.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ProgressBarRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/RadioButtonRenderer.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/RectangleRenderer.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/RectView.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/RefreshViewRenderer.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ScrollHelper.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ScrollLayoutManager.java
@@ -771,6 +818,11 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/SelectableItemsViewAdapter_2.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/SelectableItemsViewRenderer_3.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/SelectableViewHolder.java
+<<<<<<< HEAD
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ShapeRenderer_2.java
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ShapeView.java
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ShellContentFragment.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ShellFlyoutRecyclerAdapter.java
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/ShellFlyoutRecyclerAdapter_ElementViewHolder.java

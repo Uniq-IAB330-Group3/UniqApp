@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.pdb
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
@@ -72,6 +73,8 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csproj.CopyComplete
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.exe
 /Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.pdb
+=======
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.pdb
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
@@ -102,7 +105,11 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/pt-br/Xamarin.Forms.Platform.iOS.resources.dll
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
@@ -139,10 +146,21 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/announcementsSmall.png
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/filter.png
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/sortBy.png
+<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csprojAssemblyReference.cache
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csproj.CoreCompileInputs.cache
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user1.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user2.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user3.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user4.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user5.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csprojAssemblyReference.cache
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csproj.CoreCompileInputs.cache
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csproj.CopyComplete
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.exe
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.pdb

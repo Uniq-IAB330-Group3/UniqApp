@@ -1,10 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
+<<<<<<< HEAD
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Uniq.Views.AnnouncementsPage" Title="{Binding Title}" Shell.NavBarIsVisible="False" >
 
     <Grid BackgroundColor="DeepSkyBlue">
         <Grid.RowDefinitions>
             <RowDefinition Height="0"/>
+=======
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uniq.Views.AnnouncementsPage"
+             Shell.NavBarIsVisible="False"
+             xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:viewmodel="clr-namespace:Uniq.ViewModels"
+             xmlns:local="clr-namespace:Uniq;assembly=Uniq"
+             iOS:Page.UseSafeArea="true"
+             BackgroundColor="{StaticResource Primary}"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <viewmodel:AnnouncementsViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid BackgroundColor="{StaticResource Primary}" >
+        <Grid.RowDefinitions>
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             <RowDefinition Height="65"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
@@ -14,7 +34,11 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+<<<<<<< HEAD
         <Grid Grid.Row="1">
+=======
+        <Grid Grid.Row="0">
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="3*"/>
@@ -22,6 +46,7 @@
             </Grid.ColumnDefinitions>
 
             <Image Source="announcements.png"
+<<<<<<< HEAD
                HorizontalOptions="Center"
                VerticalOptions="Center"
                Grid.Column = "1"
@@ -43,6 +68,29 @@
         </Grid>
 
         <Grid Grid.Row="2">
+=======
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Column = "1"
+                HeightRequest="50"
+                WidthRequest="50"/>
+            <ImageButton Source="profile.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Column = "2"
+                HeightRequest="30"
+                WidthRequest="30"
+                BackgroundColor="Transparent"/>
+            <Image Source="logo.png"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Grid.Column = "0"
+                HeightRequest="60"
+                WidthRequest="60"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="6*"/>
@@ -50,12 +98,17 @@
             </Grid.ColumnDefinitions>
 
             <SearchBar Grid.Column="1"
+<<<<<<< HEAD
                        BackgroundColor="DeepSkyBlue"
+=======
+                       BackgroundColor="{StaticResource Primary}"
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
                        Placeholder="Search"
                        PlaceholderColor="White"
                        TextColor="White"
                        />
             <ImageButton Source="filter.png"
+<<<<<<< HEAD
                    HorizontalOptions="Start"
                    VerticalOptions="Center"
                    Grid.Column = "2"
@@ -74,6 +127,120 @@
         <ListView Grid.Row="3" BackgroundColor="White">
 
         </ListView>
+=======
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Grid.Column = "2"
+                HeightRequest="25"
+                WidthRequest="25"
+                BackgroundColor="Transparent"/>
+            <ImageButton Source="sortBy.png"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                Grid.Column = "0"
+                HeightRequest="25"
+                WidthRequest="25"
+                BackgroundColor="Transparent"/>
+        </Grid>
+
+        <ListView x:Name="AnnouncementsList"
+                  ItemsSource="{Binding Announcements}"
+                  Grid.Row="2"
+                  BackgroundColor="#f2f2f2"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Frame CornerRadius="5"
+                                   Margin="10, 10, 10, 0"
+                                   HasShadow="False"
+                                   Padding="20">
+                                <Grid  BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="5*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Image Source="{Binding ProfileImage}"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Start"
+                                        Grid.Column = "0"
+                                        HeightRequest="40"
+                                        WidthRequest="40"/>
+                                    <Grid Grid.Column="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="20" />
+                                            <RowDefinition Height="15" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Label Text="{Binding Name}"
+                                               FontAttributes="Bold"
+                                               TextColor="Black"
+                                               Grid.Row = "0"/>
+                                        <Label Text="{Binding Unit}"
+                                               FontSize="Small"
+                                               TextColor="Black"
+                                               Grid.Row = "1"/>
+                                        <Label Text="{Binding Content}"
+                                               TextColor="Black"
+                                               Grid.Row = "2"/>
+                                    </Grid>
+                                    <Label Text="{Binding TimePosted}"
+                                           Grid.Column="2"
+                                           FontSize="Micro"
+                                           TextColor="Gray"/>
+                                </Grid>
+                            </Frame>
+               
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+        <!--<ScrollView Grid.Row="2" BackgroundColor="#f2f2f2" >
+            <StackLayout>
+                <Frame CornerRadius="5"
+                       Margin="10, 10, 10, 0"
+                       HasShadow="False"
+                       Padding="20, 20, 20, 50">
+                    <Grid  BackgroundColor="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="5*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="user1.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Start"
+                            Grid.Column = "0"
+                            HeightRequest="40"
+                            WidthRequest="40"/>
+                        <StackLayout Grid.Column="1">
+                            <Label Text="John Smith"
+                                   FontAttributes="Bold"
+                                   TextColor="Black"/>
+                            <Label Text="CAB202"
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                   TextColor="Black"/>
+                        </StackLayout>
+                        <Label Text="Tue 11:33am"
+                               Grid.Column="2"
+                               FontSize="Micro"
+                               TextColor="Gray"/>
+                    </Grid>
+                </Frame>
+               
+            </StackLayout>
+        </ScrollView>-->
+        
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
         
     </Grid>
 </ContentPage>

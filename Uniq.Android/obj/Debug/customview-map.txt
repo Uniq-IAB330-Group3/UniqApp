@@ -17,10 +17,18 @@ android.support.v7.widget.RecyclerView;/Users/Tom/Uni/IAB330 Mobile Application 
 android.support.v7.widget.Toolbar;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/layout/rootlayout.xml
 android.support.v7.widget.Toolbar;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/layout/shellcontent.xml
 android.support.v7.widget.Toolbar;obj/Debug/res/layout/toolbar.xml
+<<<<<<< HEAD
+=======
+attr;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/attrs.xml
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 background;obj/Debug/res/mipmap-anydpi-v26/icon.xml
 background;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
 cache-path;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/38/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Debug/res/values/colors.xml
+<<<<<<< HEAD
+=======
+declare-styleable;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/attrs.xml
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 external-cache-path;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/38/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 external-path;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/38/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/icon.xml
@@ -29,6 +37,11 @@ FrameLayout;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.An
 item;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/styles.xml
 LinearLayout;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/layout/bottomtablayout.xml
 paths;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/38/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+<<<<<<< HEAD
+=======
+resources;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/attrs.xml
+resources;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/strings.xml
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 resources;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/styles.xml
 resources;obj/Debug/res/values/colors.xml
 resources;obj/Debug/res/values/styles.xml
@@ -36,6 +49,10 @@ set;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/ob
 set;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/anim/enterfromright.xml
 set;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/anim/exittoleft.xml
 set;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/anim/exittoright.xml
+<<<<<<< HEAD
+=======
+string;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/strings.xml
+>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 style;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/values/styles.xml
 style;obj/Debug/res/values/styles.xml
 translate;/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/lp/39/jl/res/anim/enterfromleft.xml
