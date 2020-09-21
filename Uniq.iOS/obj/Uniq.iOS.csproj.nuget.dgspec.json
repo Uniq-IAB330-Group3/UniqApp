@@ -42,11 +42,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-<<<<<<< HEAD
-              "version": "[4.6.0.1141, )"
-=======
               "version": "[4.8.0.1451, )"
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             }
           }
         }
@@ -110,11 +106,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-<<<<<<< HEAD
-              "version": "[4.6.0.1141, )"
-=======
               "version": "[4.8.0.1451, )"
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             }
           },
           "imports": [

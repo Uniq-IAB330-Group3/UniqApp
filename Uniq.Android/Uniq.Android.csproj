@@ -53,11 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
-=======
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
@@ -114,8 +110,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-<<<<<<< HEAD
-=======
     <AndroidResource Include="Resources\drawable\user1.png">
       <SubType></SubType>
       <Generator></Generator>
@@ -136,7 +130,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Uniq\Uniq.csproj">

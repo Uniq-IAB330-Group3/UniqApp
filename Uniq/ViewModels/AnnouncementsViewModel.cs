@@ -19,8 +19,6 @@ namespace Uniq.ViewModels
             Title = "Announcements";
         }
 
-<<<<<<< HEAD
-=======
         void SetupData()
         {
             Announcements = new ObservableCollection<Announcement>()
@@ -72,6 +70,5 @@ namespace Uniq.ViewModels
 
         }
 
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
     }
 }

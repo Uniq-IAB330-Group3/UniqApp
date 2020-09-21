@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<<<<<<< HEAD
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Uniq.Views.AnnouncementsPage" Title="{Binding Title}" Shell.NavBarIsVisible="False" >
-
-    <Grid BackgroundColor="DeepSkyBlue">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="0"/>
-=======
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Uniq.Views.AnnouncementsPage"
@@ -24,7 +17,6 @@
 
     <Grid BackgroundColor="{StaticResource Primary}" >
         <Grid.RowDefinitions>
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             <RowDefinition Height="65"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
@@ -34,11 +26,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-<<<<<<< HEAD
-        <Grid Grid.Row="1">
-=======
         <Grid Grid.Row="0">
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="3*"/>
@@ -46,29 +34,6 @@
             </Grid.ColumnDefinitions>
 
             <Image Source="announcements.png"
-<<<<<<< HEAD
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               Grid.Column = "1"
-               HeightRequest="50"
-               WidthRequest="50"/>
-            <ImageButton Source="profile.png"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    Grid.Column = "2"
-                    HeightRequest="30"
-                    WidthRequest="30"
-                    BackgroundColor="Transparent"/>
-            <Image Source="logo.png"
-                    HorizontalOptions="Center"
-                    VerticalOptions="End"
-                    Grid.Column = "0"
-                    HeightRequest="60"
-                    WidthRequest="60"/>
-        </Grid>
-
-        <Grid Grid.Row="2">
-=======
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Grid.Column = "1"
@@ -90,7 +55,6 @@
         </Grid>
 
         <Grid Grid.Row="1">
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="6*"/>
@@ -98,36 +62,12 @@
             </Grid.ColumnDefinitions>
 
             <SearchBar Grid.Column="1"
-<<<<<<< HEAD
-                       BackgroundColor="DeepSkyBlue"
-=======
                        BackgroundColor="{StaticResource Primary}"
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
                        Placeholder="Search"
                        PlaceholderColor="White"
                        TextColor="White"
                        />
             <ImageButton Source="filter.png"
-<<<<<<< HEAD
-                   HorizontalOptions="Start"
-                   VerticalOptions="Center"
-                   Grid.Column = "2"
-                   HeightRequest="25"
-                   WidthRequest="25"
-                   BackgroundColor="Transparent"/>
-            <ImageButton Source="sortBy.png"
-                   HorizontalOptions="End"
-                   VerticalOptions="Center"
-                   Grid.Column = "0"
-                   HeightRequest="25"
-                   WidthRequest="25"
-                   BackgroundColor="Transparent"/>
-        </Grid>
-
-        <ListView Grid.Row="3" BackgroundColor="White">
-
-        </ListView>
-=======
                 HorizontalOptions="Start"
                 VerticalOptions="Center"
                 Grid.Column = "2"
@@ -240,7 +180,6 @@
             </StackLayout>
         </ScrollView>-->
         
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
         
     </Grid>
 </ContentPage>

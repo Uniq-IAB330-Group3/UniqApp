@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-<<<<<<< HEAD:Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_PartialAppManifest.items
-    <_PartialAppManifest Include="obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/partial-info.plist" />
-=======
     <_PartialAppManifest Include="obj/iPhone/Debug/device-builds/iphone12.1-13.7/actool/partial-info.plist" />
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc:Uniq.iOS/obj/iPhone/Debug/device-builds/iphone12.1-13.7/actool/_PartialAppManifest.items
   </ItemGroup>
 </Project>

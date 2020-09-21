@@ -6,27 +6,6 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-<<<<<<< HEAD
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon20x20@2x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon20x20@3x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon29x29@2x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon29x29@3x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon40x40@2x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon40x40@3x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon60x60@2x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon60x60@3x.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon20x20~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon20x20@2x~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon29x29~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon29x29@2x~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon40x40~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon40x40@2x~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon76x76~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon76x76@2x~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/Assets.car</string>
-			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/partial-info.plist</string>
-=======
 			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon20x20@2x.png</string>
 			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon20x20@3x.png</string>
 			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon29x29@2x.png</string>
@@ -46,18 +25,13 @@
 			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
 			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/bundle/Assets.car</string>
 			<string>/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/partial-info.plist</string>
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 		</array>
 	</dict>
 	<key>com.apple.actool.notices</key>
 	<array>
 		<dict>
 			<key>description</key>
-<<<<<<< HEAD
-			<string>Failed to read file attributes for "/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/11"</string>
-=======
 			<string>Failed to read file attributes for "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/11"</string>
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 			<key>failure-reason</key>
 			<string>No such file or directory</string>
 		</dict>

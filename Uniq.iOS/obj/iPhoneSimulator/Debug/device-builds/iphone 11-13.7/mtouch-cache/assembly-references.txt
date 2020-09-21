@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
-=======
-<<<<<<<< HEAD:Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/assembly-references.txt
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
-========
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
->>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc:Uniq.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/assembly-references.txt
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.dll
@@ -16,18 +8,8 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.Core.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.Net.Http.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
-<<<<<<< HEAD
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
-=======
-<<<<<<<< HEAD:Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/assembly-references.txt
 /Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
 /Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
-========
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll
->>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc:Uniq.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/assembly-references.txt
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.Data.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.Transactions.dll
@@ -39,20 +21,8 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.ServiceModel.Internals.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
-<<<<<<< HEAD
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
-=======
-<<<<<<<< HEAD:Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/mtouch-cache/assembly-references.txt
 /Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
 /Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
-========
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
-/Users/Tom/Uni/IAB330 Mobile Application Development/assign2/Uniq/Uniq/bin/Debug/netstandard2.0/Uniq.dll
-/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
->>>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc:Uniq.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/assembly-references.txt
->>>>>>> 394206c7b3e6552d9e76d86b5789b4616790dfdc
 /Users/Tom/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
