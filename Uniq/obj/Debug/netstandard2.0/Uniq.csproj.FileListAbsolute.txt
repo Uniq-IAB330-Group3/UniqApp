@@ -22,7 +22,6 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.pdb
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.csprojAssemblyReference.cache
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs

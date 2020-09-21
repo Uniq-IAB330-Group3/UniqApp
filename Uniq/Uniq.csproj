@@ -6,10 +6,32 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\LoginPage %28copy%29.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\sortBy.png" />
+    <None Remove="Images\announcementsSmall.png" />
+    <None Remove="Images\user1.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\filter.png" />
+    <None Remove="Images\profile.png" />
+    <None Remove="Images\announcements.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\sortBy.png" />
+    <EmbeddedResource Include="Images\announcementsSmall.png" />
+    <EmbeddedResource Include="Images\user1.png" />
+    <EmbeddedResource Include="Images\logo.png" />
+    <EmbeddedResource Include="Images\filter.png" />
+    <EmbeddedResource Include="Images\profile.png" />
+    <EmbeddedResource Include="Images\announcements.png" />
   </ItemGroup>
 </Project>

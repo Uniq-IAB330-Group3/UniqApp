@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EaxNNP+suA2D7A4McG1W6ku62oYzxise8nyh38eKp97z4BHyWkoqJu97UVwrckNFwpUnHYo8IDhkVEhV2bsF9Q==",
+  "dgSpecHash": "UuZeBw6R/M5KQrLs5Qj5+UdHx5FHZBENTbgfY7v/oB1MV3eSxs3oyjeNx9ea6Abdig9YfM+RndzXZfjBAU1QwA==",
   "success": true,
   "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/Tom/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "/Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,39 +1,32 @@
 ﻿<Properties StartupConfiguration="{B5210340-D785-4C19-9AB7-3EF830BA1158}|Default">
   <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.04DB7796-D167-43E8-9952-1B7F0ECBD128" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/ViewModels/ItemDetailViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Models/Announcement.cs">
     <Files>
-      <File FileName="Uniq/AppShell.xaml" />
-      <File FileName="Uniq/AppShell.xaml.cs" />
-      <File FileName="Uniq/App.xaml.cs" />
-      <File FileName="Uniq/App.xaml" />
-      <File FileName="Uniq/Views/AboutPage.xaml" />
-      <File FileName="Uniq/Views/ItemDetailPage.xaml" />
-      <File FileName="Uniq/Views/ItemsPage.xaml" />
-      <File FileName="Uniq/Views/LoginPage.xaml" />
+      <File FileName="Uniq/AppShell.xaml" Line="20" Column="21" />
+      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="100" Column="59" />
+      <File FileName="Uniq/Models/Item.cs" />
       <File FileName="Uniq/Views/AnnouncementsPage.xaml.cs" />
-      <File FileName="Uniq/Views/AnnouncementsPage.xaml" />
-      <File FileName="Uniq/ViewModels/ItemDetailViewModel.cs" />
-      <File FileName="Uniq/Views/ItemDetailPage.xaml.cs" />
-      <File FileName="Uniq/Views/NewItemPage.xaml" />
-      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" />
-      <File FileName="Uniq/Views/AboutPage.xaml.cs" />
+      <File FileName="Uniq/Extensions/ImageResourceExtension.cs" />
+      <File FileName="Uniq/App.xaml.cs" />
+      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" Line="20" Column="13" />
+      <File FileName="Uniq/Models/Announcement.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
-              <Node name="ViewModels" expanded="True">
-                <Node name="ItemDetailViewModel.cs" selected="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Announcement.cs" selected="True" />
               </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="AboutPage.xaml" expanded="True" />
                 <Node name="AnnouncementsPage.xaml" expanded="True" />
-                <Node name="ItemDetailPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="AppShell.xaml" expanded="True" />
             </Node>
+            <Node name="Uniq.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Uniq.ViewModels;
+//using Uniq.ViewModels;
 using Xamarin.Forms;
 
 namespace Uniq.Views
@@ -10,7 +10,7 @@ namespace Uniq.Views
         public AnnouncementsPage()
         {
             InitializeComponent();
-            BindingContext = new AnnouncementsViewModel();
+            //BindingContext = new AnnouncementsViewModel();
         }
     }
 }
