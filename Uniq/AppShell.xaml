@@ -32,6 +32,9 @@
         <Tab Title="Announcements" Icon="announcementsSmall.png">
             <ShellContent  ContentTemplate="{DataTemplate local:AnnouncementsPage}" />
         </Tab>
+        <Tab Title="Chat" Icon="chat.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ChatPage}" />
+        </Tab>
     </TabBar>
     <!--
         If you would like to navigate to this content you can do so by calling
