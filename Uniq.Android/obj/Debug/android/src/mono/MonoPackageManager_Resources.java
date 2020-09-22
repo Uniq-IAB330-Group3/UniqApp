@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Uniq.Android.dll" comes first in this list. */
 		"Uniq.Android.dll",
 		"FormsViewGroup.dll",
+		"MvvmHelpers.dll",
 		"Uniq.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
