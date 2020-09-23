@@ -25,7 +25,7 @@ namespace Uniq.ViewModels
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-            ItemTapped = new Command<Item>(OnItemSelected);
+            //ItemTapped = new Command<Item>(OnItemSelected);
 
             AddItemCommand = new Command(OnAddItem);
         }
@@ -65,7 +65,7 @@ namespace Uniq.ViewModels
             set
             {
                 SetProperty(ref _selectedItem, value);
-                OnItemSelected(value);
+                //OnItemSelected(value);
             }
         }
 
@@ -74,13 +74,13 @@ namespace Uniq.ViewModels
             await Shell.Current.GoToAsync(nameof(NewItemPage));
         }
 
-        async void OnItemSelected(Item item)
-        {
-            if (item == null)
-                return;
+        //async void OnItemSelected(Item item)
+        //{
+        //    if (item == null)
+        //        return;
 
-            // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
-        }
+        //    // This will push the ItemDetailPage onto the navigation stack
+        //    //await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
+        //}
     }
 }

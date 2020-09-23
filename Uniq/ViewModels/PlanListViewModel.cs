@@ -11,12 +11,19 @@ namespace Uniq.ViewModels
     public class PlanListViewModel : BaseViewModel
     {
         public ObservableCollection<Announcement> Plans { get; set; }
+        public Command AddNewPlanCommand { get; }
 
         public PlanListViewModel()
         {
             SetupData();
 
             Title = "Plans";
+
+            AddNewPlanCommand = new Command(async () =>
+            {
+
+                await Application.Current.MainPage.Navigation.PushAsync(new AddNewPlanPage());
+            });
         }
 
         void SetupData()

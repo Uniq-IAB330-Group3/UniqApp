@@ -107,9 +107,10 @@
                 </ListView.ItemTemplate>
             </ListView>
         </Grid>
-        <ImageButton Source="edit_button.png" 
+        <ImageButton Source="logo.png" 
             BackgroundColor="Transparent"
             AbsoluteLayout.LayoutFlags="PositionProportional"  
-            AbsoluteLayout.LayoutBounds=".95,.95,60,60"/>
+            AbsoluteLayout.LayoutBounds=".95,.95,60,60"
+                     Command="{Binding AddNewPlanCommand}"/>
     </AbsoluteLayout>
 </ContentPage>
