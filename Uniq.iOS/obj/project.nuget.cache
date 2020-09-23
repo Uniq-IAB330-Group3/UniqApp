@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZrrmLLaCVkT1w21A58XK4LnY8QbegiYbRgp3td1l9ODF+dnQ25gnVWo4Rb9WRzGfaBFRgeqb7pdh5t0NoH0djw==",
+  "dgSpecHash": "ZdX0qzmNgX1ajhx/rs5ELwZHD27HusHVAI4/8K7u0wWCtWX0a6ntp8M1JH6ln5gWv+ze+sZ7h5vfLw0ZFHDF5Q==",
   "success": true,
   "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/Tom/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "/Users/Tom/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

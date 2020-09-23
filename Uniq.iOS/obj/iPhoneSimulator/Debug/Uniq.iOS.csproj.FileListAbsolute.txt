@@ -45,34 +45,36 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.pdb
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/ibtool/_BundleResourceWithLogicalName.items
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_PartialAppManifest.items
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/actool/_BundleResourceWithLogicalName.items
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/coremlc/_PartialAppManifest.items
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/coremlc/_BundleResourceWithLogicalName.items
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/tab_about.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/tab_about@2x.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/tab_about@3x.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/tab_feed.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/tab_feed@2x.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/tab_feed@3x.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/xamarin_logo.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/xamarin_logo@2x.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/xamarin_logo@3x.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/announcements.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/logo.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/profile.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/announcementsSmall.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/filter.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/sortBy.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user1.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user2.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user3.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user4.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/user5.png
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.7/optimized/
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csprojAssemblyReference.cache
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csproj.CoreCompileInputs.cache
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.csproj.CopyComplete
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.exe
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/Uniq.iOS.pdb
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/MvvmHelpers.dll
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/MvvmHelpers.pdb
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/ibtool/_BundleResourceWithLogicalName.items
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/actool/_PartialAppManifest.items
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/actool/_BundleResourceWithLogicalName.items
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/coremlc/_PartialAppManifest.items
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/coremlc/_BundleResourceWithLogicalName.items
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/tab_about.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/tab_about@2x.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/tab_about@3x.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/tab_feed.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/tab_feed@2x.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/tab_feed@3x.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/xamarin_logo.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/xamarin_logo@2x.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/xamarin_logo@3x.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/announcements.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/logo.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/profile.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/announcementsSmall.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/filter.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/sortBy.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/user1.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/user2.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/user3.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/user4.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/user5.png
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-14.0/optimized/
