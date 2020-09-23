@@ -23,11 +23,11 @@
         </ResourceDictionary>
     </Shell.Resources>
     <TabBar>
-        <Tab Title="About" Icon="tab_about.png" Route="AboutPage">
+        <!--<Tab Title="About" Icon="tab_about.png" Route="AboutPage">
             <ShellContent  ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab> 
-        <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
+        </Tab>--> 
+        <Tab Title="Plans" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:PlanListViewPage}" />
         </Tab>
         <Tab Title="Announcements" Icon="announcementsSmall.png">
             <ShellContent  ContentTemplate="{DataTemplate local:AnnouncementsPage}" />

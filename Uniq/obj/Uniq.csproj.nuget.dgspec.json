@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj": {}
+    "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj": {}
   },
   "projects": {
-    "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj": {
+    "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
+        "projectUniqueName": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
         "projectName": "Uniq",
-        "projectPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
-        "packagesPath": "/Users/aungkhantkyaw/.nuget/packages/",
-        "outputPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/",
+        "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
+        "packagesPath": "/Users/macbookpro/.nuget/packages/",
+        "outputPath": "/Users/macbookpro/Projects/UniqApp/Uniq/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/aungkhantkyaw/.config/NuGet/NuGet.Config"
+          "/Users/macbookpro/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
