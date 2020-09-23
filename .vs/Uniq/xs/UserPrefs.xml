@@ -1,38 +1,51 @@
-﻿<Properties StartupConfiguration="{B5210340-D785-4C19-9AB7-3EF830BA1158}|Default">
+﻿<Properties StartupConfiguration="{331E4EF5-3C3E-48EF-8D6C-80011D7763D7}|Default">
   <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.04DB7796-D167-43E8-9952-1B7F0ECBD128" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Models/Announcement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/AppShell.xaml">
     <Files>
-      <File FileName="Uniq/AppShell.xaml" Line="20" Column="21" />
-      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="100" Column="59" />
-      <File FileName="Uniq/Models/Item.cs" />
-      <File FileName="Uniq/Views/AnnouncementsPage.xaml.cs" />
-      <File FileName="Uniq/Extensions/ImageResourceExtension.cs" />
-      <File FileName="Uniq/App.xaml.cs" />
-      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" Line="20" Column="13" />
-      <File FileName="Uniq/Models/Announcement.cs" Line="1" Column="1" />
+      <File FileName="Uniq/AppShell.xaml" Line="19" Column="75" />
+      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="132" Column="60" />
+      <File FileName="Uniq/Views/ChatPage.xaml" Line="8" Column="33" />
+      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" />
+      <File FileName="Uniq/ViewModels/ChatViewModel.cs" Line="14" Column="31" />
+      <File FileName="Uniq/Models/Announcement.cs" />
+      <File FileName="Uniq/Models/Chat.cs" Line="11" Column="41" />
+      <File FileName="Uniq/Views/ItemsPage.xaml" />
+      <File FileName="Uniq/Views/ChatPage.xaml.cs" />
+      <File FileName="Uniq/Views/ItemsPage.xaml.cs" />
+      <File FileName="Uniq/App.xaml" Line="1" Column="1" />
+      <File FileName="Uniq/App.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
-              <Node name="Extensions" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Announcement.cs" selected="True" />
-              </Node>
+              <Node name="Images" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="AboutPage.xaml" expanded="True" />
                 <Node name="AnnouncementsPage.xaml" expanded="True" />
+                <Node name="ChatPage.xaml" expanded="True" />
+                <Node name="ItemsPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" selected="True" />
             </Node>
-            <Node name="Uniq.iOS" expanded="True" />
+            <Node name="Uniq.Android" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="layout" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Uniq.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.Uniq.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.pixel_3a_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

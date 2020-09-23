@@ -63,12 +63,7 @@ namespace Uniq.ViewModels
                     ProfileImage = "user5.png",
                     TimePosted = "Fri 12:14pm"
                 }
-
             };
-       
-
-
         }
-
     }
 }

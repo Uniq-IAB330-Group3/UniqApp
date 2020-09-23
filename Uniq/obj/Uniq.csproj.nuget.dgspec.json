@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {}
+    "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj": {}
   },
   "projects": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {
+    "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
+        "projectUniqueName": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
         "projectName": "Uniq",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
-        "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/",
+        "projectPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
+        "packagesPath": "/Users/aungkhantkyaw/.nuget/packages/",
+        "outputPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Tom/.config/NuGet/NuGet.Config"
+          "/Users/aungkhantkyaw/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
