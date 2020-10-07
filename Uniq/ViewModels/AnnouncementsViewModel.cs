@@ -1,10 +1,5 @@
-﻿using System;
-using System.Windows.Input;
-using Xamarin.Essentials;
-using Xamarin.Forms;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using Uniq.Models;
-using Uniq.Views;
 
 namespace Uniq.ViewModels
 {
