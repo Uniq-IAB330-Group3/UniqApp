@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj": {}
+    "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/Uniq.iOS.csproj": {}
   },
   "projects": {
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj": {
+    "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/Uniq.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
+        "projectUniqueName": "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
         "projectName": "Uniq.iOS",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
-        "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/obj/",
+        "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
+        "packagesPath": "/Users/macbookpro/.nuget/packages/",
+        "outputPath": "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/Tom/.config/NuGet/NuGet.Config"
+          "/Users/macbookpro/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {
-                "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj"
+              "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj": {
+                "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj"
               }
             }
           }
@@ -59,20 +59,20 @@
         }
       }
     },
-    "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {
+    "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
+        "projectUniqueName": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
         "projectName": "Uniq",
-        "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
-        "packagesPath": "/Users/Tom/.nuget/packages/",
-        "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/",
+        "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
+        "packagesPath": "/Users/macbookpro/.nuget/packages/",
+        "outputPath": "/Users/macbookpro/Projects/UniqApp/Uniq/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Tom/.config/NuGet/NuGet.Config"
+          "/Users/macbookpro/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -119,7 +119,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     }
