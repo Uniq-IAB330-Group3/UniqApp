@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZdX0qzmNgX1ajhx/rs5ELwZHD27HusHVAI4/8K7u0wWCtWX0a6ntp8M1JH6ln5gWv+ze+sZ7h5vfLw0ZFHDF5Q==",
+  "dgSpecHash": "t02N/EszAECj+OIbN4WEjykZPlGkXf/h6CIgWRGdJ6+JJOzLfF8hWHme8PRTRb4q8oyRkLbi0Gpm26Mtq0luoQ==",
   "success": true,
-  "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
+  "projectFilePath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/Tom/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "/Users/Tom/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",

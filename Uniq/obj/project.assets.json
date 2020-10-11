@@ -723,11 +723,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
+      "projectUniqueName": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
       "projectName": "Uniq",
-      "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
+      "projectPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
       "packagesPath": "/Users/Tom/.nuget/packages/",
-      "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/",
+      "outputPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

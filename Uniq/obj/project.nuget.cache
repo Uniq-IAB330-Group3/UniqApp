@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HZXdwmCBpQ6fb6BgkBqX/9NTbqH4Bl3k4hYVp4XStknLbC60ovjfAlVXshh9Oz6ecTZrNZoTajnRm+AELJjopw==",
+  "dgSpecHash": "/g8IDA10K0AoWaqqr+TY/6dENdNE2GMrlpZMh4x6fG1N7QHo8ps7wH5qQVlmylF1fKfj8qedsQv7VAfoEZCr3g==",
   "success": true,
-  "projectFilePath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
+  "projectFilePath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
   "expectedPackageFiles": [
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
