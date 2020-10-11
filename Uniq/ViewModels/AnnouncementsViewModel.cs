@@ -1,5 +1,8 @@
 ﻿using System.Collections.ObjectModel;
 using Uniq.Models;
+using Xamarin.Forms;
+using System.Diagnostics;
+using System;
 
 namespace Uniq.ViewModels
 {
@@ -7,11 +10,26 @@ namespace Uniq.ViewModels
     {
         public ObservableCollection<Announcement> Announcements { get; set; }
 
+        public ObservableCollection<UnitFilter> UnitFilters { get; set; }
+
         public AnnouncementsViewModel()
         {
             SetupData();
 
             Title = "Announcements";
+
+            _filterVisible = false;
+
+            ShowFilter = new Command(DisplayFilter);
+        }
+
+        public Command ShowFilter { get; }
+
+        private Boolean _filterVisible;
+        public Boolean FilterVisible
+        {
+            get { return _filterVisible; }
+            set { _filterVisible = value; }
         }
 
         void SetupData()
@@ -59,6 +77,37 @@ namespace Uniq.ViewModels
                     TimePosted = "Fri 12:14pm"
                 }
             };
+
+            UnitFilters = new ObservableCollection<UnitFilter>()
+            {
+                new UnitFilter
+                {
+                    UnitId = "CAB202",
+                    SelectedIcon = "tick.png"
+                },
+                new UnitFilter
+                {
+                    UnitId = "CAB321",
+                    SelectedIcon = "cross.png"
+                },
+                new UnitFilter
+                {
+                    UnitId = "IAB123",
+                    SelectedIcon = "tick.png"
+                },
+                new UnitFilter
+                {
+                    UnitId = "CAB123",
+                    SelectedIcon = "tick.png"
+                }
+            };
+        }
+
+        void DisplayFilter()
+        {
+            Debug.WriteLine("filter test");
+            FilterVisible = !FilterVisible;
+            OnPropertyChanged(nameof(FilterVisible));
         }
     }
 }
