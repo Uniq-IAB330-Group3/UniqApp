@@ -13,7 +13,7 @@ namespace Uniq.ViewModels
     {
         public ObservableCollection<Planner> Plans { get; set; }
         public Command AddNewPlanCommand { get; }
-        ICommand tapCommand;
+        public Command TapCommand { get; }
 
         public PlanListViewModel()
         {
@@ -21,22 +21,23 @@ namespace Uniq.ViewModels
 
             Title = "Plans";
 
-            tapCommand = new Command(OnTapped);
 
             AddNewPlanCommand = new Command(async () =>
             {
 
                 await Application.Current.MainPage.Navigation.PushAsync(new AddNewPlanPage());
             });
+
+            TapCommand = new Command(async () =>
+            {
+
+                await Application.Current.MainPage.Navigation.PushAsync(new AddNewPlanPage());
+            });
         }
 
-        public ICommand TapCommand
+        void CheckBox_CheckedChanged(System.Object sender, Xamarin.Forms.CheckedChangedEventArgs e)
         {
-            get { return tapCommand; }
-        }
-        void OnTapped(object s)
-        {
-            Application.Current.MainPage.Navigation.PushAsync(new PlanDetailViewPage());
+            Plans.RemoveAt(1);
         }
 
         void SetupData()
@@ -45,6 +46,7 @@ namespace Uniq.ViewModels
             {
                 new Planner
                 {
+                    PlanID = "1",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     Icon = "tab_about.png",
@@ -52,6 +54,7 @@ namespace Uniq.ViewModels
                 },
                 new Planner
                 {
+                    PlanID = "2",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     Icon = "tab_about.png",
@@ -59,6 +62,7 @@ namespace Uniq.ViewModels
                 },
                 new Planner
                 {
+                    PlanID = "3",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     Icon = "tab_about.png",
@@ -66,6 +70,7 @@ namespace Uniq.ViewModels
                 },
                 new Planner
                 {
+                    PlanID = "4",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     Icon = "tab_about.png",

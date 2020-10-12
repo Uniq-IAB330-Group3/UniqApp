@@ -3,18 +3,18 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/ViewModels/PlanListViewModel.cs">
     <Files>
       <File FileName="Uniq/Views/PlanListViewPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Uniq/Models/Planner.cs" Line="12" Column="1" />
-      <File FileName="Uniq/Models/Announcement.cs" Line="4" Column="30" />
-      <File FileName="Uniq/Models/Chat.cs" Line="8" Column="9" />
-      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="82" Column="99" />
+      <File FileName="Uniq/Models/Planner.cs" />
+      <File FileName="Uniq/Models/Announcement.cs" />
+      <File FileName="Uniq/Models/Chat.cs" />
+      <File FileName="Uniq/Views/PlanListViewPage.xaml" />
       <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="33" Column="35" />
-      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" Line="13" Column="49" />
-      <File FileName="Uniq/Views/AddNewPlanPage.xaml" Line="7" Column="59" />
-      <File FileName="Uniq/ViewModels/AddnewPlanViewModel.cs" Line="11" Column="77" />
-      <File FileName="Uniq/Views/PlanDetailViewPage.xaml" Line="1" Column="1" />
-      <File FileName="Uniq/Views/PlanDetailViewPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Uniq/ViewModels/PlanDetailViewModel.cs" Line="1" Column="1" />
-      <File FileName="Uniq/Views/AddNewPlanPage.xaml.cs" Line="10" Column="16" />
+      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" />
+      <File FileName="Uniq/Views/AddNewPlanPage.xaml" />
+      <File FileName="Uniq/ViewModels/AddnewPlanViewModel.cs" />
+      <File FileName="Uniq/Views/PlanDetailViewPage.xaml" />
+      <File FileName="Uniq/Views/PlanDetailViewPage.xaml.cs" />
+      <File FileName="Uniq/ViewModels/PlanDetailViewModel.cs" />
+      <File FileName="Uniq/Views/AddNewPlanPage.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

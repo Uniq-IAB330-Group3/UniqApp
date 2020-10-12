@@ -7,5 +7,6 @@ namespace Uniq.Models
         public string Description { get; set; }
         public string Icon { get; set; }
         public string Date { get; set; }
+        public string PlanID { get; set; }
     }
 }
