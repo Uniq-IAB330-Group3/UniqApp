@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/g8IDA10K0AoWaqqr+TY/6dENdNE2GMrlpZMh4x6fG1N7QHo8ps7wH5qQVlmylF1fKfj8qedsQv7VAfoEZCr3g==",
+  "dgSpecHash": "Hh2LqF/nMuo6cjexL+l1GxWU3fvVbWzNhOU6gdEtaKE+sVbH+Yog9AIPzd0q52cgH7tKGnHV5LAwAb+nLXJ0sQ==",
   "success": true,
-  "projectFilePath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
+  "projectFilePath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq/Uniq.csproj",
   "expectedPackageFiles": [
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
@@ -12,5 +12,12 @@
     "/Users/Tom/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/Tom/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

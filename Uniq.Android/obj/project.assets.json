@@ -2026,11 +2026,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/Uniq.Android.csproj",
+      "projectUniqueName": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq.Android/Uniq.Android.csproj",
       "projectName": "Uniq.Android",
-      "projectPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/Uniq.Android.csproj",
+      "projectPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq.Android/Uniq.Android.csproj",
       "packagesPath": "/Users/Tom/.nuget/packages/",
-      "outputPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/",
+      "outputPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2045,8 +2045,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj": {
-              "projectPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj"
+            "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq/Uniq.csproj": {
+              "projectPath": "/Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq/Uniq.csproj"
             }
           }
         }
@@ -2070,5 +2070,13 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/Tom/OneDrive - Queensland University of Technology/Uni/IAB330 Mobile Application Development/UniqApp/UniqApp/Uniq.Android/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

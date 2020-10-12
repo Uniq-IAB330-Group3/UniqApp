@@ -1,15 +1,10 @@
-﻿<Properties StartupConfiguration="{B5210340-D785-4C19-9AB7-3EF830BA1158}|Default">
-  <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15F4DBE3-2994-4C0C-89EE-616DD7EFA74E" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Models/Announcement.cs">
+﻿<Properties StartupConfiguration="{331E4EF5-3C3E-48EF-8D6C-80011D7763D7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Models/Item.cs">
     <Files>
-      <File FileName="Uniq/AppShell.xaml" Line="20" Column="21" />
-      <File FileName="Uniq/Views/AnnouncementsPage.xaml" />
-      <File FileName="Uniq/Models/Item.cs" />
-      <File FileName="Uniq/Views/AnnouncementsPage.xaml.cs" />
-      <File FileName="Uniq/Extensions/ImageResourceExtension.cs" />
-      <File FileName="Uniq/App.xaml.cs" />
-      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" />
-      <File FileName="Uniq/Models/Announcement.cs" Line="17" Column="1" />
+      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="212" Column="1" />
+      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" Line="79" Column="15" />
+      <File FileName="Uniq/Models/UnitFilter.cs" Line="1" Column="1" />
+      <File FileName="Uniq/Models/Item.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,10 +12,11 @@
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
               <Node name="Models" expanded="True">
-                <Node name="Announcement.cs" selected="True" />
+                <Node name="Item.cs" selected="True" />
               </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
-            <Node name="Uniq.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

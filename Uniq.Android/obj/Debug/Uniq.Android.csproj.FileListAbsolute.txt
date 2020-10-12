@@ -1465,6 +1465,9 @@
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/res/drawable/chat.png
+<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/res/drawable/chat.png
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/assets/MvvmHelpers.dll
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq.Android/obj/Debug/android/assets/MvvmHelpers.pdb
+=======
+>>>>>>> development

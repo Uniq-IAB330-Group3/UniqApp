@@ -56,9 +56,12 @@
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs
+<<<<<<< HEAD
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AppointmentPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ContactPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ExtensionPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ManualPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/SupportPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/TalkPage.xaml.g.cs
+=======
+>>>>>>> development
