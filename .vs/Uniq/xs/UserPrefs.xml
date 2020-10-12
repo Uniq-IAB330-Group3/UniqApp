@@ -6,14 +6,15 @@
       <File FileName="Uniq/Models/Planner.cs" Line="12" Column="1" />
       <File FileName="Uniq/Models/Announcement.cs" Line="4" Column="30" />
       <File FileName="Uniq/Models/Chat.cs" Line="8" Column="9" />
-      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="106" Column="36" />
-      <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="21" Column="1" />
+      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="82" Column="99" />
+      <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="33" Column="35" />
       <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" Line="13" Column="49" />
       <File FileName="Uniq/Views/AddNewPlanPage.xaml" Line="7" Column="59" />
       <File FileName="Uniq/ViewModels/AddnewPlanViewModel.cs" Line="11" Column="77" />
       <File FileName="Uniq/Views/PlanDetailViewPage.xaml" Line="1" Column="1" />
       <File FileName="Uniq/Views/PlanDetailViewPage.xaml.cs" Line="1" Column="1" />
       <File FileName="Uniq/ViewModels/PlanDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="Uniq/Views/AddNewPlanPage.xaml.cs" Line="10" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +27,9 @@
                 <Node name="PlanListViewModel.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="AddNewPlanPage.xaml" expanded="True" />
                 <Node name="PlanDetailViewPage.xaml" expanded="True" />
+                <Node name="PlanListViewPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />

@@ -5,13 +5,15 @@ using Xamarin.Forms;
 using System.Collections.ObjectModel;
 using Uniq.Models;
 using Uniq.Views;
+using System.ComponentModel;
 
 namespace Uniq.ViewModels
 {
-    public class PlanListViewModel : BaseViewModel
+    public class PlanListViewModel : BaseViewModel, INotifyPropertyChanged
     {
         public ObservableCollection<Planner> Plans { get; set; }
         public Command AddNewPlanCommand { get; }
+        ICommand tapCommand;
 
         public PlanListViewModel()
         {
@@ -19,11 +21,22 @@ namespace Uniq.ViewModels
 
             Title = "Plans";
 
+            tapCommand = new Command(OnTapped);
+
             AddNewPlanCommand = new Command(async () =>
             {
 
                 await Application.Current.MainPage.Navigation.PushAsync(new AddNewPlanPage());
             });
+        }
+
+        public ICommand TapCommand
+        {
+            get { return tapCommand; }
+        }
+        void OnTapped(object s)
+        {
+            Application.Current.MainPage.Navigation.PushAsync(new PlanDetailViewPage());
         }
 
         void SetupData()
