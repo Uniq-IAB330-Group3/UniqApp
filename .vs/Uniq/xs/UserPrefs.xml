@@ -1,34 +1,36 @@
 ﻿<Properties StartupConfiguration="{B5210340-D785-4C19-9AB7-3EF830BA1158}|Default">
   <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CEFC3163-7C3D-475B-A645-82E5B9008AE9" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Views/AddNewPlanPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/ViewModels/PlanListViewModel.cs">
     <Files>
-      <File FileName="Uniq/Views/NewItemPage.xaml" Line="17" Column="15" />
-      <File FileName="Uniq/ViewModels/NewItemViewModel.cs" Line="10" Column="50" />
-      <File FileName="Uniq/Views/AddNewPlanPage.xaml.cs" Line="12" Column="35" />
-      <File FileName="Uniq/ViewModels/AddnewPlanViewModel.cs" Line="65" Column="10" />
-      <File FileName="Uniq/Views/AddNewPlanPage.xaml" Line="14" Column="27" />
-      <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="25" Column="91" />
-      <File FileName="Uniq/AppShell.xaml" Line="1" Column="1" />
-      <File FileName="Uniq/AppShell.xaml.cs" Line="14" Column="85" />
-      <File FileName="Uniq/ViewModels/ItemsViewModel.cs" Line="28" Column="62" />
       <File FileName="Uniq/Views/PlanListViewPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Uniq/Models/Planner.cs" Line="12" Column="1" />
+      <File FileName="Uniq/Models/Announcement.cs" Line="4" Column="30" />
+      <File FileName="Uniq/Models/Chat.cs" Line="8" Column="9" />
+      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="106" Column="36" />
+      <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="21" Column="1" />
+      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" Line="13" Column="49" />
+      <File FileName="Uniq/Views/AddNewPlanPage.xaml" Line="7" Column="59" />
+      <File FileName="Uniq/ViewModels/AddnewPlanViewModel.cs" Line="11" Column="77" />
+      <File FileName="Uniq/Views/PlanDetailViewPage.xaml" Line="1" Column="1" />
+      <File FileName="Uniq/Views/PlanDetailViewPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Uniq/ViewModels/PlanDetailViewModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
+              <Node name="Images" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="PlanListViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="AddNewPlanPage.xaml" expanded="True" selected="True" />
-                <Node name="AnnouncementsPage.xaml" expanded="True" />
-                <Node name="PlanListViewPage.xaml" expanded="True" />
+                <Node name="PlanDetailViewPage.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
             </Node>
-            <Node name="Uniq.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -51,7 +51,7 @@
                 HeightRequest="60"
                 WidthRequest="60"/>
             </Grid>
-
+            
             <ListView x:Name="PlanList"
                   ItemsSource="{Binding Plans}"
                   Grid.Row="2"
@@ -72,7 +72,7 @@
                                             <ColumnDefinition Width="*" />
                                         </Grid.ColumnDefinitions>
 
-                                        <Image Source="{Binding ProfileImage}"
+                                        <Image Source="{Binding Icon}"
                                         HorizontalOptions="Center"
                                         VerticalOptions="Start"
                                         Grid.Column = "0"
@@ -84,14 +84,14 @@
                                                 <RowDefinition Height="15" />
                                                 <RowDefinition Height="*" />
                                             </Grid.RowDefinitions>
-                                            <Label Text="{Binding Name}"
+                                            <Label Text="{Binding Title}"
                                                FontAttributes="Bold"
                                                TextColor="Black"
                                                Grid.Row = "0"/>
-                                            <Label Text="{Binding Content}"
+                                            <Label Text="{Binding Description}"
                                                TextColor="Black"
                                                Grid.Row = "1"/>
-                                            <Label Text="{Binding TimePosted}"
+                                            <Label Text="{Binding Date}"
                                            Grid.Row="2"
                                            FontSize="Micro"
                                            TextColor="Gray"/>

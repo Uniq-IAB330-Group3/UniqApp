@@ -10,7 +10,7 @@ namespace Uniq.ViewModels
 {
     public class PlanListViewModel : BaseViewModel
     {
-        public ObservableCollection<Announcement> Plans { get; set; }
+        public ObservableCollection<Planner> Plans { get; set; }
         public Command AddNewPlanCommand { get; }
 
         public PlanListViewModel()
@@ -28,47 +28,35 @@ namespace Uniq.ViewModels
 
         void SetupData()
         {
-            Plans = new ObservableCollection<Announcement>()
+            Plans = new ObservableCollection<Planner>()
             {
-                new Announcement
+                new Planner
                 {
-                    Name = "Meet with John Smith",
-                    Unit = "CAB202",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfileImage = "tab_about.png",
-                    TimePosted = "Tue 11:32am"
+                    Title = "Meet with John Smith",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    Icon = "tab_about.png",
+                    Date = "Tue 11:32am"
                 },
-                new Announcement
+                new Planner
                 {
-                    Name = "Meet with John Smith",
-                    Unit = "CAB202",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfileImage = "tab_about.png",
-                    TimePosted = "Tue 11:32am"
+                    Title = "Meet with John Smith",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    Icon = "tab_about.png",
+                    Date = "Tue 11:32am"
                 },
-                new Announcement
+                new Planner
                 {
-                    Name = "Meet with John Smith",
-                    Unit = "CAB202",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfileImage = "tab_about.png",
-                    TimePosted = "Tue 11:32am"
+                    Title = "Meet with John Smith",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    Icon = "tab_about.png",
+                    Date = "Tue 11:32am"
                 },
-                new Announcement
+                new Planner
                 {
-                    Name = "Meet with John Smith",
-                    Unit = "CAB202",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfileImage = "tab_about.png",
-                    TimePosted = "Tue 11:32am"
-                },
-                new Announcement
-                {
-                    Name = "Meet with John Smith",
-                    Unit = "CAB202",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfileImage = "tab_about.png",
-                    TimePosted = "Tue 11:32am"
+                    Title = "Meet with John Smith",
+                    Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    Icon = "tab_about.png",
+                    Date = "Tue 11:32am"
                 }
             };
         }
