@@ -48,7 +48,8 @@ namespace Uniq.ViewModels
 
         public ICommand DeleteCommand => new Command<string>(async (string item) =>
         {
-            await Application.Current.MainPage.DisplayAlert("CC", "DD", "Ok");
+            //await Application.Current.MainPage.DisplayAlert("CC", "DD", "Ok");
+            Plans.RemoveAt(0);
         });
 
         void SetupData()

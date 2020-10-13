@@ -71,7 +71,7 @@
                         <ViewCell>
                             <ViewCell.ContextActions>
                                 <MenuItem Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListView}}" Text="More" />
-                                <MenuItem Text="Delete" IsDestructive="True" />
+                                <MenuItem Command="{Binding Path=BindingContext.DeleteCommand, Source={x:Reference PlanListView}}" Text="Delete" IsDestructive="True" />
                              </ViewCell.ContextActions>
                             <StackLayout>
                                 <Frame CornerRadius="5"

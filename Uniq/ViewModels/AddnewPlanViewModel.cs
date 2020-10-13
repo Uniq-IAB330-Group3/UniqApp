@@ -51,6 +51,7 @@ namespace Uniq.ViewModels
 
         private async void OnSave()
         {
+            await Application.Current.MainPage.DisplayAlert("Successful", "New Plan was saved", "Ok");
             //Item newItem = new Item()
             //{
             //    Id = Guid.NewGuid().ToString(),
