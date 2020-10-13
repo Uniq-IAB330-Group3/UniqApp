@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Uniq.Views.PlanListViewPage"
-             x:Name="PlanListViewPage"
+             x:Name="PlanListView"
              Shell.NavBarIsVisible="False"
              xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              xmlns:viewmodel="clr-namespace:Uniq.ViewModels"
@@ -59,7 +59,7 @@
                     <Label Margin="15, -8, 0, 0" FontSize="Subtitle">Upcoming plans</Label>
                 </Frame>
             </StackLayout>
-
+                        
             <!-- Plan list start-->
             <ListView x:Name="PlanList"
                   ItemsSource="{Binding Plans}"
@@ -70,7 +70,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.ContextActions>
-                                <MenuItem Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListViewPage}}" Text="More" />
+                                <MenuItem Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListView}}" Text="More" />
                                 <MenuItem Text="Delete" IsDestructive="True" />
                              </ViewCell.ContextActions>
                             <StackLayout>
@@ -89,10 +89,10 @@
                                         HorizontalOptions="Center"
                                         VerticalOptions="Start"
                                         Grid.Column = "0"
-                                        HeightRequest="40"
-                                        WidthRequest="40">
+                                        HeightRequest="30"
+                                        WidthRequest="30">
                                             <Image.GestureRecognizers>
-                                                <TapGestureRecognizer Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListViewPage}}" CommandParameter="image1"></TapGestureRecognizer>
+                                                <TapGestureRecognizer Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListView}}" CommandParameter="image1"></TapGestureRecognizer>
                                             </Image.GestureRecognizers>
                                         </Image>
                                         <Grid Grid.Column="1">
@@ -103,10 +103,12 @@
                                             </Grid.RowDefinitions>
                                             <Label Text="{Binding Title}"
                                                FontAttributes="Bold"
-                                               TextColor="Black"
+                                                   FontSize="Medium"
+                                                   TextColor="Black"
                                                Grid.Row = "0"/>
                                             <Label Text="{Binding Description}"
                                                TextColor="Black"
+                                                   FontSize="Body"
                                                Grid.Row = "1"/>
                                             <Label Text="{Binding Date}"
                                            Grid.Row="2"
@@ -124,10 +126,10 @@
                 </ListView.ItemTemplate>
             </ListView>
         </Grid>
-        <ImageButton Source="logo.png" 
+        <ImageButton Source="edit.png" 
             BackgroundColor="Transparent"
             AbsoluteLayout.LayoutFlags="PositionProportional"  
-            AbsoluteLayout.LayoutBounds=".95,.95,60,60"
+            AbsoluteLayout.LayoutBounds=".5,.95,60,60"
                      Command="{Binding AddNewPlanCommand}"/>
     </AbsoluteLayout>
 </ContentPage>

@@ -31,7 +31,7 @@ namespace Uniq.ViewModels
             TapCommand = new Command(async () =>
             {
 
-                await Application.Current.MainPage.Navigation.PushAsync(new AddNewPlanPage());
+                await Application.Current.MainPage.Navigation.PushAsync(new PlanDetailViewPage());
             });
         }
 
@@ -60,7 +60,7 @@ namespace Uniq.ViewModels
                     PlanID = "1",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    Icon = "tab_about.png",
+                    Icon = "timer.png",
                     Date = "Tue 11:32am"
                 },
                 new Planner
@@ -68,7 +68,7 @@ namespace Uniq.ViewModels
                     PlanID = "2",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    Icon = "tab_about.png",
+                    Icon = "timer.png",
                     Date = "Tue 11:32am"
                 },
                 new Planner
@@ -76,7 +76,7 @@ namespace Uniq.ViewModels
                     PlanID = "3",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    Icon = "tab_about.png",
+                    Icon = "timer.png",
                     Date = "Tue 11:32am"
                 },
                 new Planner
@@ -84,7 +84,7 @@ namespace Uniq.ViewModels
                     PlanID = "4",
                     Title = "Meet with John Smith",
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    Icon = "tab_about.png",
+                    Icon = "timer.png",
                     Date = "Tue 11:32am"
                 }
             };

@@ -26,4 +26,3 @@
 /Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/macbookpro/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/14.0.0.0/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
-/Users/macbookpro/.nuget/packages/xamarin.plugin.calendar/1.2.1506/lib/xamarinios10/Xamarin.Plugin.Calendar.dll

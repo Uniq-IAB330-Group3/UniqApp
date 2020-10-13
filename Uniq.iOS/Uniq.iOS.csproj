@@ -133,6 +133,12 @@
     <BundleResource Include="Resources\user3.png" />
     <BundleResource Include="Resources\user4.png" />
     <BundleResource Include="Resources\user5.png" />
+    <BundleResource Include="Resources\edit.png">
+      <LogicalName>edit.png</LogicalName>
+    </BundleResource>
+    <BundleResource Include="Resources\timer.png">
+      <LogicalName>timer.png</LogicalName>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
