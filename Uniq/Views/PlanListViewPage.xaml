@@ -55,7 +55,7 @@
             </Grid>
 
             <StackLayout Grid.Row="2">
-                <Frame>
+                <Frame BorderColor="Transparent" HasShadow="False">
                     <Label Margin="15, -8, 0, 0" FontSize="Subtitle">Upcoming plans</Label>
                 </Frame>
             </StackLayout>

@@ -6,6 +6,7 @@ using System.Collections.ObjectModel;
 using Uniq.Models;
 using Uniq.Views;
 using System.ComponentModel;
+using System.IO.IsolatedStorage;
 
 namespace Uniq.ViewModels
 {
@@ -14,11 +15,11 @@ namespace Uniq.ViewModels
         public ObservableCollection<Planner> Plans { get; set; }
         public Command AddNewPlanCommand { get; }
         public Command TapCommand { get; }
+        public Command RefreshCommand { get; }
 
         public PlanListViewModel()
         {
             SetupData();
-
             Title = "Plans";
 
 
@@ -32,6 +33,12 @@ namespace Uniq.ViewModels
             {
 
                 await Application.Current.MainPage.Navigation.PushAsync(new PlanDetailViewPage());
+            });
+
+            RefreshCommand = new Command(async () =>
+            {
+                Plans.Clear();
+                SetupData();
             });
         }
 
