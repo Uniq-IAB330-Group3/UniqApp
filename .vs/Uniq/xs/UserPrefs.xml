@@ -3,15 +3,25 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Views/AddNewPlanPage.xaml.cs">
     <Files>
       <File FileName="Uniq/Views/AddNewPlanPage.xaml.cs" Line="16" Column="1" />
-      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="55" Column="20" />
+      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="93" Column="69" />
+      <File FileName="Uniq/Views/AddNewPlanPage.xml" Line="9" Column="68" />
+      <File FileName="Uniq/Views/AddNewPlanPage.xaml" Line="12" Column="47" />
+      <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="37" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="AddNewPlanPage.xaml.cs" selected="True" />
+                <Node name="AddNewPlanPage.xaml" expanded="True">
+                  <Node name="AddNewPlanPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="PlanListViewPage.xaml" expanded="True" />
               </Node>
             </Node>
           </Node>

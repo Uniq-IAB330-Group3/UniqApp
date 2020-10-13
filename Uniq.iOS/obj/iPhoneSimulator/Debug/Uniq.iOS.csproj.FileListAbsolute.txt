@@ -156,7 +156,5 @@
 /Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/optimized/user4.png
 /Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/optimized/user5.png
 /Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/optimized/
-/Users/macbookpro/Projects/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Xamarin.Plugin.Calendar.dll
-/Users/macbookpro/Projects/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Xamarin.Plugin.Calendar.pdb
 /Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/optimized/edit.png
 /Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/optimized/timer.png

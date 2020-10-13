@@ -30,9 +30,6 @@
     <None Remove="Images\edit.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Remove="Views\AddNewPlanPage.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Images\sortBy.png" />
     <EmbeddedResource Include="Images\announcementsSmall.png" />
     <EmbeddedResource Include="Images\user1.png" />
