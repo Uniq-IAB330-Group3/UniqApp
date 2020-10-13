@@ -80,5 +80,4 @@
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/PlanListViewPage.xaml.g.cs
-/Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AddNewPlanPage.xaml.g.cs
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/PlanDetailViewPage.xaml.g.cs

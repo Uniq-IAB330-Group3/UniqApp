@@ -12,7 +12,7 @@
              Title="{Binding Title}">
 
     <ContentPage.BindingContext>
-        <viewmodel:PlanListViewModel/>
+        <viewmodel:PlanListViewModel></viewmodel:PlanListViewModel>
     </ContentPage.BindingContext>
     <AbsoluteLayout>
         <Grid BackgroundColor="{StaticResource Primary}" >
@@ -89,12 +89,17 @@
                                         HorizontalOptions="Center"
                                         VerticalOptions="Start"
                                         Grid.Column = "0"
+<<<<<<< Updated upstream
                                         HeightRequest="30"
                                         WidthRequest="30">
                                             <Image.GestureRecognizers>
                                                 <TapGestureRecognizer Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListView}}" CommandParameter="image1"></TapGestureRecognizer>
                                             </Image.GestureRecognizers>
                                         </Image>
+=======
+                                        HeightRequest="40"
+                                        WidthRequest="40"/>
+>>>>>>> Stashed changes
                                         <Grid Grid.Column="1">
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="20" />

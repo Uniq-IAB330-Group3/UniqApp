@@ -18,10 +18,5 @@ namespace Uniq.Views
         {
             InitializeComponent();
         }
-
-        void CheckBox_CheckedChanged(System.Object sender, Xamarin.Forms.CheckedChangedEventArgs e)
-        {
-            
-        }
     }
 }

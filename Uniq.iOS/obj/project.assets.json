@@ -157,26 +157,13 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Plugin.Calendar/1.2.1506": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
-        },
-        "compile": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        }
-      },
       "Uniq/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Refractored.MvvmHelpers": "1.6.2",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
-          "Xamarin.Plugin.Calendar": "1.2.1506"
+          "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
           "bin/placeholder/Uniq.dll": {}
@@ -342,26 +329,13 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Plugin.Calendar/1.2.1506": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
-        },
-        "compile": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        }
-      },
       "Uniq/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Refractored.MvvmHelpers": "1.6.2",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
-          "Xamarin.Plugin.Calendar": "1.2.1506"
+          "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
           "bin/placeholder/Uniq.dll": {}
@@ -527,26 +501,13 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Plugin.Calendar/1.2.1506": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
-        },
-        "compile": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        }
-      },
       "Uniq/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Refractored.MvvmHelpers": "1.6.2",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
-          "Xamarin.Plugin.Calendar": "1.2.1506"
+          "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
           "bin/placeholder/Uniq.dll": {}
@@ -712,26 +673,13 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Plugin.Calendar/1.2.1506": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
-        },
-        "compile": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        },
-        "runtime": {
-          "lib/xamarinios10/Xamarin.Plugin.Calendar.dll": {}
-        }
-      },
       "Uniq/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Refractored.MvvmHelpers": "1.6.2",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451",
-          "Xamarin.Plugin.Calendar": "1.2.1506"
+          "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
           "bin/placeholder/Uniq.dll": {}
@@ -1172,26 +1120,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Plugin.Calendar/1.2.1506": {
-      "sha512": "S2choOeO9B0p03upBMdeDsn85yN/b0crmd/Fv18EqDMc0kOBSbcovdCptYj89LyOwz/VrNQhrNiskGC7crflJg==",
-      "type": "package",
-      "path": "xamarin.plugin.calendar/1.2.1506",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid81/Xamarin.Plugin.Calendar.dll",
-        "lib/monoandroid81/Xamarin.Plugin.Calendar.pdb",
-        "lib/monoandroid81/Xamarin.Plugin.Calendar.xml",
-        "lib/netstandard2.0/Xamarin.Plugin.Calendar.dll",
-        "lib/netstandard2.0/Xamarin.Plugin.Calendar.pdb",
-        "lib/netstandard2.0/Xamarin.Plugin.Calendar.xml",
-        "lib/xamarinios10/Xamarin.Plugin.Calendar.dll",
-        "lib/xamarinios10/Xamarin.Plugin.Calendar.pdb",
-        "lib/xamarinios10/Xamarin.Plugin.Calendar.xml",
-        "xamarin.plugin.calendar.1.2.1506.nupkg.sha512",
-        "xamarin.plugin.calendar.nuspec"
-      ]
-    },
     "Uniq/1.0.0": {
       "type": "project",
       "path": "../Uniq/Uniq.csproj",
@@ -1203,8 +1131,7 @@
       "Refractored.MvvmHelpers >= 1.6.2",
       "Uniq >= 1.0.0",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.8.0.1451",
-      "Xamarin.Plugin.Calendar >= 1.2.1506"
+      "Xamarin.Forms >= 4.8.0.1451"
     ]
   },
   "packageFolders": {
@@ -1253,10 +1180,6 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.8.0.1451, )"
-          },
-          "Xamarin.Plugin.Calendar": {
-            "target": "Package",
-            "version": "[1.2.1506, )"
           }
         }
       }

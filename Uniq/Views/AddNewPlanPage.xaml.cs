@@ -9,7 +9,7 @@ namespace Uniq.Views
     {
         public AddNewPlanPage()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }
