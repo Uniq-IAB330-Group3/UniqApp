@@ -56,7 +56,7 @@
 
             <StackLayout Grid.Row="2">
                 <Frame BorderColor="Transparent" HasShadow="False">
-                    <Label Margin="15, -8, 0, 0" FontSize="Subtitle">Upcoming plans</Label>
+                    <Label Margin="15, -8, 0, 0" FontSize="Medium">Upcoming plans</Label>
                 </Frame>
             </StackLayout>
                         
@@ -71,7 +71,7 @@
                         <ViewCell>
                             <ViewCell.ContextActions>
                                 <MenuItem Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListView}}" Text="More" />
-                                <MenuItem Command="{Binding Path=BindingContext.DeleteCommand, Source={x:Reference PlanListView}}" Text="Delete" IsDestructive="True" />
+                                <MenuItem Command="{Binding Path=BindingContext.DeleteCommand, Source={x:Reference PlanListView}}" CommandParameter="{Binding PlanID}" Text="Delete" IsDestructive="True" />
                              </ViewCell.ContextActions>
                             <StackLayout>
                                 <Frame CornerRadius="5"

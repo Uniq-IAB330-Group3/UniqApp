@@ -9,6 +9,7 @@ namespace Uniq.ViewModels
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public class ItemDetailViewModel : BaseViewModel
     {
+        public Planner plan;
         private string itemId;
         private string text;
         private string description;

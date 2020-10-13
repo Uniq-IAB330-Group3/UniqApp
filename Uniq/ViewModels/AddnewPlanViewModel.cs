@@ -46,7 +46,8 @@ namespace Uniq.ViewModels
         private async void OnCancel()
         {
             // This will pop the current page off the navigation stack
-            await Shell.Current.GoToAsync("..");
+            //await Shell.Current.GoToAsync("..");
+            await Application.Current.MainPage.Navigation.PopAsync();
         }
 
         private async void OnSave()

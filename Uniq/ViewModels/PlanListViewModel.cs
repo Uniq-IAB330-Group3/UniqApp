@@ -31,7 +31,6 @@ namespace Uniq.ViewModels
 
             TapCommand = new Command(async () =>
             {
-
                 await Application.Current.MainPage.Navigation.PushAsync(new PlanDetailViewPage());
             });
 
@@ -56,7 +55,15 @@ namespace Uniq.ViewModels
         public ICommand DeleteCommand => new Command<string>(async (string item) =>
         {
             //await Application.Current.MainPage.DisplayAlert("CC", "DD", "Ok");
-            Plans.RemoveAt(0);
+            
+            for (int i=0; i<Plans.Count; i++)
+            {
+                if (Plans[i].PlanID.Equals(item))
+                {
+                    Plans.RemoveAt(i);
+                    break;
+                }
+            }
         });
 
         void SetupData()
