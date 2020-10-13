@@ -25,6 +25,9 @@
     <None Remove="Images\filter.png" />
     <None Remove="Images\profile.png" />
     <None Remove="Images\announcements.png" />
+    <None Remove="Images\edit_button.png" />
+    <None Remove="Images\timer.png" />
+    <None Remove="Images\edit.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\sortBy.png" />
@@ -34,5 +37,8 @@
     <EmbeddedResource Include="Images\filter.png" />
     <EmbeddedResource Include="Images\profile.png" />
     <EmbeddedResource Include="Images\announcements.png" />
+    <EmbeddedResource Include="Images\edit_button.png" />
+    <EmbeddedResource Include="Images\timer.png" />
+    <EmbeddedResource Include="Images\edit.png" />
   </ItemGroup>
 </Project>

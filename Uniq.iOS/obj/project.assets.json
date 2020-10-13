@@ -1135,20 +1135,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/aungkhantkyaw/.nuget/packages/": {}
+    "/Users/macbookpro/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
+      "projectUniqueName": "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
       "projectName": "Uniq.iOS",
-      "projectPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
-      "packagesPath": "/Users/aungkhantkyaw/.nuget/packages/",
-      "outputPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.iOS/obj/",
+      "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/Uniq.iOS.csproj",
+      "packagesPath": "/Users/macbookpro/.nuget/packages/",
+      "outputPath": "/Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/aungkhantkyaw/.config/NuGet/NuGet.Config"
+        "/Users/macbookpro/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1159,8 +1159,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj": {
-              "projectPath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj"
+            "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj": {
+              "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj"
             }
           }
         }

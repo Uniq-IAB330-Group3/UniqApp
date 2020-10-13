@@ -38,7 +38,7 @@ namespace Uniq.ViewModels
             {
                 new Announcement
                 {
-                    Name = "John Smith",
+                    Title = "John Smith",
                     Unit = "CAB202",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     ProfileImage = "user1.png",
@@ -46,7 +46,7 @@ namespace Uniq.ViewModels
                 },
                 new Announcement
                 {
-                    Name = "David Webb",
+                    Title = "David Webb",
                     Unit = "CAB123",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     ProfileImage = "user2.png",
@@ -54,7 +54,7 @@ namespace Uniq.ViewModels
                 },
                 new Announcement
                 {
-                    Name = "Jane Goodman",
+                    Title = "Jane Goodman",
                     Unit = "IAB153",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     ProfileImage = "user3.png",
@@ -62,7 +62,7 @@ namespace Uniq.ViewModels
                 },
                 new Announcement
                 {
-                    Name = "Josh Grier",
+                    Title = "Josh Grier",
                     Unit = "CAB321",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
                     ProfileImage = "user4.png",
@@ -70,7 +70,7 @@ namespace Uniq.ViewModels
                 },
                 new Announcement
                 {
-                    Name = "Anthony Galletly",
+                    Title = "Anthony Galletly",
                     Unit = "CAB123",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     ProfileImage = "user5.png",
