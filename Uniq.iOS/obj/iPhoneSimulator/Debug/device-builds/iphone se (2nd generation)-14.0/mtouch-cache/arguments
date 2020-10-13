@@ -208,6 +208,7 @@
 	-r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r=/Users/macbookpro/.nuget/packages/xamarin.plugin.calendar/1.2.1506/lib/xamarinios10/Xamarin.Plugin.Calendar.dll \
 	-r=/Users/macbookpro/Projects/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll \
 	-r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll \
 	'@/Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/response-file.rsp' \

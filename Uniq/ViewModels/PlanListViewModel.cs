@@ -40,6 +40,17 @@ namespace Uniq.ViewModels
             Plans.RemoveAt(1);
         }
 
+        public ICommand MoreCommand => new Command<string>(async (string item) =>
+        {
+            await Application.Current.MainPage.DisplayAlert("AA", "BB", "Ok");
+
+        });
+
+        public ICommand DeleteCommand => new Command<string>(async (string item) =>
+        {
+            await Application.Current.MainPage.DisplayAlert("CC", "DD", "Ok");
+        });
+
         void SetupData()
         {
             Plans = new ObservableCollection<Planner>()

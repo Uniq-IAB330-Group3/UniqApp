@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2C6TbZy/JnpO15AKT2IBN3sukmC8j6yrVZuFsvNmMpN9eNN5TszbsTiPJRFo3QeY0HQPpYj60Zz1IwFT2ZXhhw==",
+  "dgSpecHash": "KGwDUgr5pan8gwfxGtRK6gOI06X/Kb588j4XeNFDUDAK9bndIvEDgeyUXUhmxkRcj0u2pvxa2l3Te/ifpHQukA==",
   "success": true,
   "projectFilePath": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/macbookpro/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/macbookpro/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "/Users/macbookpro/.nuget/packages/xamarin.plugin.calendar/1.2.1506/xamarin.plugin.calendar.1.2.1506.nupkg.sha512"
   ],
   "logs": []
 }
