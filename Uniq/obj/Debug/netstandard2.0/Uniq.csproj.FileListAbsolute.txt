@@ -26,10 +26,6 @@
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AnnouncementsPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
-/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfoInputs.cache
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfo.cs
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.csproj.CoreCompileInputs.cache
@@ -59,6 +55,7 @@
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.pdb
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs
+<<<<<<< HEAD
 /Users/macbookpro/Projects/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.deps.json
 /Users/macbookpro/Projects/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
 /Users/macbookpro/Projects/UniqApp/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
@@ -82,3 +79,6 @@
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/PlanListViewPage.xaml.g.cs
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/PlanDetailViewPage.xaml.g.cs
 /Users/macbookpro/Projects/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AddNewPlanPage.xaml.g.cs
+=======
+/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs
+>>>>>>> origin/development
