@@ -16,12 +16,18 @@ namespace Uniq.ViewModels
         public Command AddNewPlanCommand { get; }
         public Command TapCommand { get; }
         public Command RefreshCommand { get; }
+        public Command ProfileCommand { get; }
 
         public PlanListViewModel()
         {
             SetupData();
             Title = "Plans";
 
+            ProfileCommand = new Command(async () =>
+            {
+
+                await Application.Current.MainPage.Navigation.PushAsync(new ProfileViewPage());
+            });
 
             AddNewPlanCommand = new Command(async () =>
             {

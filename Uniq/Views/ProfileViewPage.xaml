@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Uniq.Views.ProfileViewPage" Title="Profile">
+
+    <AbsoluteLayout>
+        <StackLayout>
+            <Image Margin="0,15,0,0" Source="user1.png" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100"></Image>
+            <Label Margin="0,10,0,0" HorizontalOptions="Center" FontSize="Title">John Smith</Label>
+            <Label Margin="0,4,0,0" HorizontalOptions="Center" FontSize="Small">jjhon.smith@gmail.com</Label>
+            <Label Margin="15,30,15,0">Student ID : n12345678</Label>
+            <Label Margin="15,4,15,0">Course : Bachelor of IT</Label>
+            <Label Margin="15,4,15,0" HorizontalOptions="Center" FontSize="Body">
+                Address : Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </Label>
+            <Label Margin="15,4,15,0">Year Enrolled : 2020</Label>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

@@ -40,7 +40,7 @@
                 Grid.Column = "2"
                 HeightRequest="30"
                 WidthRequest="30"
-                BackgroundColor="Transparent"/>
+                BackgroundColor="Transparent" Command="{Binding ProfileCommand}"/>
                 <Label HorizontalOptions="Center"
                    VerticalOptions="Center"
                    Grid.Column="1"
