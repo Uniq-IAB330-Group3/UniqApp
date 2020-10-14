@@ -191,9 +191,6 @@
                                         Margin="3"
                                         Padding="9"
                                         HasShadow="False">
-                                        <!--<Frame.GestureRecognizers>
-                                            <TapGestureRecognizer Command="{Binding UnitFilterToggle}"/>
-                                        </Frame.GestureRecognizers>-->
                                         <StackLayout Orientation="Horizontal"
                                                         HorizontalOptions="Center"
                                                         VerticalOptions="Center">

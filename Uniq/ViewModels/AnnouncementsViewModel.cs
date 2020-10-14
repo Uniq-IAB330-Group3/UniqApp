@@ -126,7 +126,7 @@ namespace Uniq.ViewModels
                 },
                 new UnitFilter
                 {
-                    UnitId = "IAB123",
+                    UnitId = "IAB153",
                     SelectedIcon = "tick.png",
                     Status = true,
                     BtnColor = primaryColor,
@@ -145,7 +145,6 @@ namespace Uniq.ViewModels
 
         void DisplayFilter()
         {
-            Debug.WriteLine("filter test");
             FilterVisible = !FilterVisible;
             OnPropertyChanged(nameof(FilterVisible));
         }
