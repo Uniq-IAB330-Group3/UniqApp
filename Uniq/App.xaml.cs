@@ -8,6 +8,7 @@ namespace Uniq
 {
     public partial class App : Application
     {
+        public static string User = "Rendy";
 
         public App()
         {

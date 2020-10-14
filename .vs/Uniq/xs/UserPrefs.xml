@@ -1,45 +1,47 @@
 ﻿<Properties StartupConfiguration="{331E4EF5-3C3E-48EF-8D6C-80011D7763D7}|Default">
-  <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.04DB7796-D167-43E8-9952-1B7F0ECBD128" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/AppShell.xaml">
+  <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.063E5745-7D77-442C-AF6A-766CD94D7DA5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Views/AnnouncementsPage.xaml">
     <Files>
-      <File FileName="Uniq/AppShell.xaml" Line="19" Column="75" />
-      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="132" Column="60" />
-      <File FileName="Uniq/Views/ChatPage.xaml" Line="8" Column="33" />
-      <File FileName="Uniq/ViewModels/AnnouncementsViewModel.cs" />
-      <File FileName="Uniq/ViewModels/ChatViewModel.cs" Line="14" Column="31" />
-      <File FileName="Uniq/Models/Announcement.cs" />
-      <File FileName="Uniq/Models/Chat.cs" Line="11" Column="41" />
-      <File FileName="Uniq/Views/ItemsPage.xaml" />
-      <File FileName="Uniq/Views/ChatPage.xaml.cs" />
-      <File FileName="Uniq/Views/ItemsPage.xaml.cs" />
+      <File FileName="Uniq/ViewModels/ItemsViewModel.cs" Line="21" Column="1" />
+      <File FileName="Uniq/ViewModels/ItemDetailViewModel.cs" Line="13" Column="29" />
+      <File FileName="Uniq/ViewModels/ChatViewModel.cs" Line="23" Column="81" />
+      <File FileName="Uniq/ViewModels/ChatPageViewModel.cs" Line="58" Column="47" />
+      <File FileName="Uniq/Views/ChatPage.xaml" Line="103" Column="64" />
+      <File FileName="Uniq/Views/CellsPage.xaml" Line="25" Column="45" />
+      <File FileName="Uniq/Views/CellsPage.xaml.cs" Line="17" Column="1" />
+      <File FileName="Uniq/ViewModels/ChatTemplateSelector.cs" Line="3" Column="18" />
+      <File FileName="Uniq/AppShell.xaml.cs" />
+      <File FileName="Uniq/App.xaml.cs" />
       <File FileName="Uniq/App.xaml" Line="1" Column="1" />
-      <File FileName="Uniq/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Uniq/GettingStarted.txt" />
+      <File FileName="Uniq/AppShell.xaml" Line="35" Column="41" />
+      <File FileName="Uniq/Views/IncomingViewCell.xaml" Line="4" Column="49" />
+      <File FileName="Uniq/Views/OutgoingViewCell.xaml" Line="4" Column="27" />
+      <File FileName="Uniq/Views/ItemDetailPage.xaml" Line="6" Column="56" />
+      <File FileName="Uniq/ViewModels/AboutViewModel.cs" />
+      <File FileName="Uniq/Models/Chat.cs" Line="12" Column="6" />
+      <File FileName="Uniq/Models/Message.cs" Line="8" Column="44" />
+      <File FileName="Uniq/Models/Item.cs" Line="1" Column="1" />
+      <File FileName="Uniq/Views/ItemsPage.xaml" Line="26" Column="15" />
+      <File FileName="Uniq/Controls/ExtendedEditorControl.cs" Line="22" Column="57" />
+      <File FileName="Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs" Line="20" Column="51" />
+      <File FileName="Uniq/Views/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="Uniq/Views/NewItemPage.xaml" Line="1" Column="1" />
+      <File FileName="Uniq/Views/AnnouncementsPage.xaml" Line="15" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
-              <Node name="Images" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="AboutPage.xaml" expanded="True" />
-                <Node name="AnnouncementsPage.xaml" expanded="True" />
-                <Node name="ChatPage.xaml" expanded="True" />
-                <Node name="ItemsPage.xaml" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
-              <Node name="AppShell.xaml" expanded="True" selected="True" />
-            </Node>
-            <Node name="Uniq.Android" expanded="True">
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="layout" expanded="True" />
+                <Node name="AnnouncementsPage.xaml" selected="True" />
+                <Node name="CellsPage.xaml" expanded="True" />
               </Node>
             </Node>
+            <Node name="Uniq.Android" expanded="True" />
           </Node>
         </State>
       </Pad>

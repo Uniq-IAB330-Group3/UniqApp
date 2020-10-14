@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"Uniq.Android.dll",
 		"FormsViewGroup.dll",
 		"MvvmHelpers.dll",
+		"PropertyChanged.dll",
 		"Uniq.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",

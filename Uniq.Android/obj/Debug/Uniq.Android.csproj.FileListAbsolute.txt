@@ -1465,3 +1465,6 @@
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
 /Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/res/drawable/chat.png
+/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/res/drawable/plus.png
+/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/Uniq.Android.csproj.Fody.CopyLocal.cache
+/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq.Android/obj/Debug/android/assets/PropertyChanged.dll

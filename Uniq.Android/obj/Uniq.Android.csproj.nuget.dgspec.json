@@ -36,6 +36,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.2.9, )"
+            },
             "Refractored.MvvmHelpers": {
               "target": "Package",
               "version": "[1.6.2, )"
@@ -93,6 +97,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[3.2.9, )"
+            },
             "Refractored.MvvmHelpers": {
               "target": "Package",
               "version": "[1.6.2, )"
@@ -103,7 +111,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.8.0.1451, )"
+              "version": "[4.8.0.1534, )"
             }
           },
           "imports": [

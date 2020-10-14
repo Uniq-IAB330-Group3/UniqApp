@@ -10,6 +10,7 @@
       "Uniq/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "PropertyChanged.Fody": "3.2.9",
           "Refractored.MvvmHelpers": "1.6.2",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
@@ -18,10 +19,23 @@
           "Uniq.dll": {}
         }
       },
+      "Fody/6.2.4": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PropertyChanged.Fody/3.2.9": {
+        "dependencies": {
+          "Fody": "6.2.4",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {
+            "assemblyVersion": "3.2.9.0",
+            "fileVersion": "3.2.9.0"
+          }
         }
       },
       "Refractored.MvvmHelpers/1.6.2": {
@@ -79,6 +93,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Fody/6.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IHt3dR3i9NjFqqhFzUAwoFbDkOJiarDkZBSrQA3tjAquARMvhamYvnB10/slNLNr4UMc2zY/uHX21aP6mLGaQg==",
+      "path": "fody/6.2.4",
+      "hashPath": "fody.6.2.4.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -92,6 +113,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/3.2.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HA88YFp467IF8GHPENg+wBGo2RPHnInxVOZNwjnHXkumieFSY0XMIF3etneME8oLZeXHOjfPBe7TxDL3Pc5YSw==",
+      "path": "propertychanged.fody/3.2.9",
+      "hashPath": "propertychanged.fody.3.2.9.nupkg.sha512"
     },
     "Refractored.MvvmHelpers/1.6.2": {
       "type": "package",

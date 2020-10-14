@@ -58,6 +58,9 @@
     <PackageReference Include="Refractored.MvvmHelpers">
       <Version>1.6.2</Version>
     </PackageReference>
+    <PackageReference Include="PropertyChanged.Fody">
+      <Version>3.2.9</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -134,6 +137,10 @@
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\chat.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\plus.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

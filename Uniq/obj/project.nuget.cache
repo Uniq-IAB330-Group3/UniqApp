@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "nv85rE96Qy7be3dYCQ0fxwW8SnFd13XY2yxmWP4WWSEM6tHYC98toURYrgfbUOgAEQDTHZvr91w7liG89wrHmw==",
+  "dgSpecHash": "x4ClmfEohEk3I1VtnAXCBjhQ2X+4+L9kkgEksIIY16iSVRF7SrGmVrAFU6xPXfE9KLsMDizWCocKBFk+Ikpo0g==",
   "success": true,
   "projectFilePath": "/Users/aungkhantkyaw/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
   "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/aungkhantkyaw/.nuget/packages/fody/6.2.4/fody.6.2.4.nupkg.sha512",
+    "/Users/aungkhantkyaw/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/aungkhantkyaw/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/aungkhantkyaw/.nuget/packages/propertychanged.fody/3.2.9/propertychanged.fody.3.2.9.nupkg.sha512",
     "/Users/aungkhantkyaw/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/aungkhantkyaw/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/aungkhantkyaw/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/aungkhantkyaw/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "/Users/aungkhantkyaw/.nuget/packages/xamarin.forms/4.8.0.1534/xamarin.forms.4.8.0.1534.nupkg.sha512"
   ],
   "logs": []
 }

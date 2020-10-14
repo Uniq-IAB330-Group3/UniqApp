@@ -26,12 +26,13 @@
         <Tab Title="About" Icon="tab_about.png" Route="AboutPage">
             <ShellContent  ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab> 
-        <Tab Title="Browse" Icon="tab_feed.png">
+        <!--<Tab Title="Browse" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
         </Tab>
         <Tab Title="Announcements" Icon="announcementsSmall.png">
             <ShellContent  ContentTemplate="{DataTemplate local:AnnouncementsPage}" />
-        </Tab>
+        </Tab>-->
+        <!--Open ChatPage when tapped-->
         <Tab Title="Chat" Icon="chat.png">
             <ShellContent ContentTemplate="{DataTemplate local:ChatPage}" />
         </Tab>
