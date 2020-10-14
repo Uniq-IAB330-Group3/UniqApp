@@ -6,7 +6,7 @@
              Shell.NavBarIsVisible="False"
              xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              xmlns:viewmodel="clr-namespace:Uniq.ViewModels"
-             xmlns:local="clr-namespace:Uniq;assembly=Uniq" xmlns:controls="clr-namespace:Xamarin.Plugin.Calendar.Controls;assembly=Xamarin.Plugin.Calendar"
+             xmlns:local="clr-namespace:Uniq;assembly=Uniq"
              iOS:Page.UseSafeArea="true"
              BackgroundColor="{StaticResource Primary}"
              Title="{Binding Title}">
@@ -113,6 +113,9 @@
                                            Grid.Row="2"
                                            FontSize="Micro"
                                            TextColor="Gray"/>
+                                            <Grid.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding Path=BindingContext.TapCommand, Source={x:Reference PlanListView}}" CommandParameter="image1"></TapGestureRecognizer>
+                                            </Grid.GestureRecognizers>
                                         </Grid>
                                         <CheckBox IsChecked="False"
                                               Grid.Column="2"/>

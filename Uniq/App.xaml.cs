@@ -17,6 +17,8 @@ namespace Uniq
             MainPage = new AppShell();
         }
 
+        public static string User = "Rendy";
+
         protected override void OnStart()
         {
         }
