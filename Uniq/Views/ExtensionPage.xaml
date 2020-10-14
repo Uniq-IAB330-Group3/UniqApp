@@ -4,8 +4,9 @@
         <Entry Placeholder="Unit Code" />
         <Entry Placeholder="Assessment Title" />
         <Entry Placeholder="Tutor Name" />
-        <Entry Placeholder="Due Date" />
-        <Entry Placeholder="Reason for Extension" />
+        <Label Text="Due Date" />
+        <DatePicker Format="D"/>
+        <Editor Placeholder="Reason for Extension" />
         <Button Text="Submit"/>
     </StackLayout>
 </ContentPage>
