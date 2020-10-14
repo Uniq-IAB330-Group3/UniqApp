@@ -32,6 +32,9 @@
         <Tab Title="Chat" Icon="chat.png">
             <ShellContent ContentTemplate="{DataTemplate local:ChatPage}" />
         </Tab>
+        <Tab Title="Support" Icon="tab_about.png">
+            <ShellContent  ContentTemplate="{DataTemplate local:SupportPage}" />
+        </Tab>
     </TabBar>
     <!--
         If you would like to navigate to this content you can do so by calling
