@@ -5,7 +5,7 @@
         <DatePicker Format="D"/>
         <Label Text="Time" />
         <TimePicker/>
-        <Entry Placeholder="Reason for Extension" />
+        <Editor Placeholder="Reason for Extension" AutoSize="TextChanges"/>
         <Button Text="Submit"/>
     </StackLayout>
 </ContentPage>
