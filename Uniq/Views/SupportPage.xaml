@@ -58,31 +58,31 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <StackLayout Padding="10">
-                <Button
+                <Button WidthRequest="200"
                     Text="Talk to Support"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding TalkButtonCommand}"/>
-                <Button
+                <Button WidthRequest="200"
                     Text="Contact Tutor"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding ContactButtonCommand}"/>
-                <Button
+                <Button WidthRequest="200"
                     Text="Apply for Extension"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding ExtensionButtonCommand}"/>
-                <Button
+                <Button WidthRequest="200"
                     Text="Book Councillor Appointment"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding AppointmentButtonCommand}"/>
-                <Button
+                <Button WidthRequest="200"
                     Text="Other Support Services"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"/>
-                <Button
+                <Button WidthRequest="200"
                     Text="App Manual"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
