@@ -185,7 +185,7 @@
                                         <ColumnDefinition Width="2*"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Frame CornerRadius="50"
+                                    <Frame CornerRadius="20"
                                         BackgroundColor="{Binding BtnColor}"
                                         Grid.Column = "1"
                                         Margin="3"
