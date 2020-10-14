@@ -2,17 +2,17 @@
 --sgen-conc
 /target-framework:Xamarin.iOS,Version=v1.0
 --http-message-handler=NSUrlSessionHandler
-"--cache=/Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/mtouch-cache"
---root-assembly=/Users/macbookpro/Projects/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
+"--cache=/Users/macbookpro/Documents/GitHub/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/mtouch-cache"
+--root-assembly=/Users/macbookpro/Documents/GitHub/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/Uniq.iOS.exe
 --sdkroot=/Applications/Xcode.app/Contents/Developer
-"--sim=/Users/macbookpro/Projects/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/Uniq.iOS.app"
+"--sim=/Users/macbookpro/Documents/GitHub/UniqApp/Uniq.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/Uniq.iOS.app"
 --executable=Uniq.iOS
 --nolink
 --sdk=14.0
 --targetver=8.0
 --aot-options=-O=-float32
 --abi=x86_64
-"--symbollist=/Users/macbookpro/Projects/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/mtouch-symbols.list"
+"--symbollist=/Users/macbookpro/Documents/GitHub/UniqApp/Uniq.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone se (2nd generation)-14.0/mtouch-symbols.list"
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
@@ -21,7 +21,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
--r=/Users/macbookpro/Projects/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
+-r=/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
 -r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll
@@ -206,5 +206,5 @@
 -r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/macbookpro/Projects/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
+-r=/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
 -r=/Users/macbookpro/.nuget/packages/xamarin.forms/4.8.0.1451/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll

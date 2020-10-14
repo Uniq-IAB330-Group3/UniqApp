@@ -82,3 +82,30 @@
 =======
 /Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs
 >>>>>>> origin/development
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.deps.json
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.dll
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/bin/Debug/netstandard2.0/ref/Uniq.dll
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/bin/Debug/netstandard2.0/Uniq.pdb
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.csprojAssemblyReference.cache
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AddNewPlanPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AnnouncementsPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/AppointmentPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ChatPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ContactPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ExtensionPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/ManualPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/PlanDetailViewPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/PlanListViewPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/SupportPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Views/TalkPage.xaml.g.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfoInputs.cache
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.AssemblyInfo.cs
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.dll
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/ref/Uniq.dll
+/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/Debug/netstandard2.0/Uniq.pdb

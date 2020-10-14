@@ -717,39 +717,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "/Users/macbookpro/.nuget/packages/": {},
-=======
-    "/Users/Tom/.nuget/packages/": {},
->>>>>>> origin/development
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
+      "projectUniqueName": "/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
       "projectName": "Uniq",
-      "projectPath": "/Users/macbookpro/Projects/UniqApp/Uniq/Uniq.csproj",
+      "projectPath": "/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/Uniq.csproj",
       "packagesPath": "/Users/macbookpro/.nuget/packages/",
-      "outputPath": "/Users/macbookpro/Projects/UniqApp/Uniq/obj/",
-=======
-      "projectUniqueName": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
-      "projectName": "Uniq",
-      "projectPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/Uniq.csproj",
-      "packagesPath": "/Users/Tom/.nuget/packages/",
-      "outputPath": "/Users/Tom/Uni/IAB330 Mobile Application Development/UniqApp/Uniq/obj/",
->>>>>>> origin/development
+      "outputPath": "/Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "/Users/macbookpro/.config/NuGet/NuGet.Config"
-=======
-        "/Users/Tom/.config/NuGet/NuGet.Config"
->>>>>>> origin/development
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -803,5 +787,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/macbookpro/Documents/GitHub/UniqApp/Uniq/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

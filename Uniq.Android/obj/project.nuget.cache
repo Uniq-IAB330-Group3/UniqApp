@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L02d40zULU0phETWHrLxWChu9rZ2DNo2LMOiaqYeH+h5TOGVXdJz84brsQUYak+sNBnbo6D5QGfmuWuS06vF2A==",
+  "dgSpecHash": "9fuM1pEb219JBbfuvG5WFy0RgJrrsa9V3kkjxoR5/kXLRWmD6BJKoiCVyOme+crULViLaIzFs2GZHP5m/WdRmw==",
   "success": true,
-  "projectFilePath": "/Users/macbookpro/Projects/UniqApp/Uniq.Android/Uniq.Android.csproj",
+  "projectFilePath": "/Users/macbookpro/Documents/GitHub/UniqApp/Uniq.Android/Uniq.Android.csproj",
   "expectedPackageFiles": [
     "/Users/macbookpro/.nuget/packages/refractored.mvvmhelpers/1.6.2/refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "/Users/macbookpro/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
