@@ -1,29 +1,31 @@
-﻿<Properties StartupConfiguration="{B5210340-D785-4C19-9AB7-3EF830BA1158}|Default">
-  <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CEFC3163-7C3D-475B-A645-82E5B9008AE9" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/Views/AddNewPlanPage.xaml.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{331E4EF5-3C3E-48EF-8D6C-80011D7763D7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Uniq.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8C7A2B9D-B6F3-43D9-9853-D7DED12776BE" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Uniq/AppShell.xaml.cs">
     <Files>
-      <File FileName="Uniq/Views/AddNewPlanPage.xaml.cs" Line="16" Column="1" />
-      <File FileName="Uniq/Views/PlanListViewPage.xaml" Line="93" Column="69" />
-      <File FileName="Uniq/Views/AddNewPlanPage.xml" Line="9" Column="68" />
-      <File FileName="Uniq/Views/AddNewPlanPage.xaml" Line="12" Column="47" />
-      <File FileName="Uniq/ViewModels/PlanListViewModel.cs" Line="37" Column="51" />
+      <File FileName="Uniq/AppShell.xaml.cs" Line="15" Column="66" />
+      <File FileName="Uniq/ViewModels/ItemsViewModel.cs" />
+      <File FileName="Uniq/Views/NewItemPage.xaml" />
+      <File FileName="Uniq/AppShell.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Uniq" expanded="True">
             <Node name="Uniq" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Images" expanded="True">
+                <Node name="edit.png" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="AddNewPlanPage.xaml" expanded="True">
-                  <Node name="AddNewPlanPage.xaml.cs" selected="True" />
-                </Node>
-                <Node name="PlanListViewPage.xaml" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="Uniq.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
               </Node>
             </Node>
+            <Node name="Uniq.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
