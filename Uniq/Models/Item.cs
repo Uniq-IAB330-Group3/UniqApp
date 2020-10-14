@@ -2,9 +2,10 @@
 
 namespace Uniq.Models
 {
-    public class UnitFilter
+    public class Item
     {
-        public string UnitId { get; set; }
-        public string SelectedIcon { get; set; }
+        public string Id { get; set; }
+        public string Text { get; set; }
+        public string Description { get; set; }
     }
 }
