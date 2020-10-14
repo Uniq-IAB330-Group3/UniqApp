@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using Uniq.Models;
+using MvvmHelpers;
+using Xamarin.Forms;
+using Uniq.Views;
 
 namespace Uniq.ViewModels
 {
@@ -8,10 +11,17 @@ namespace Uniq.ViewModels
     {
         public ObservableCollection<Chat> Chats { get; set; }
 
+        public Command TapCommand { get; }
+
         public ChatViewModel()
         {
             SetupData();
-            Title = "Chat Page";
+            //Title = "Chat Page";
+
+            TapCommand = new Command(async () =>
+            {
+                await Application.Current.MainPage.Navigation.PushAsync(new CellsPage());
+            });
         }
 
         void SetupData()
@@ -20,57 +30,15 @@ namespace Uniq.ViewModels
             {
                 new Chat
                 {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    Name = "John",
+                    Content = "Hi, How are you?",
                     ProfilePicture = "user1.png",
                     Time = "Tue 11:32am"
                 },
                 new Chat
                 {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfilePicture = "user1.png",
-                    Time = "Tue 11:32am"
-                },
-                new Chat
-                {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfilePicture = "user1.png",
-                    Time = "Tue 11:32am"
-                },
-                new Chat
-                {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfilePicture = "user1.png",
-                    Time = "Tue 11:32am"
-                },
-                new Chat
-                {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfilePicture = "user1.png",
-                    Time = "Tue 11:32am"
-                },
-                new Chat
-                {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfilePicture = "user1.png",
-                    Time = "Tue 11:32am"
-                },
-                new Chat
-                {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    ProfilePicture = "user1.png",
-                    Time = "Tue 11:32am"
-                },
-                new Chat
-                {
-                    Name = "John Smith",
-                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    Name = "David",
+                    Content = "That's a good idea",
                     ProfilePicture = "user1.png",
                     Time = "Tue 11:32am"
                 }
