@@ -3,12 +3,14 @@ using Uniq.Models;
 using Xamarin.Forms;
 using System.Diagnostics;
 using System;
+using System.Runtime.CompilerServices;
+using MvvmHelpers;
 
 namespace Uniq.ViewModels
 {
     public class AnnouncementsViewModel : BaseViewModel
     {
-        public ObservableCollection<Announcement> Announcements { get; set; }
+        public ObservableRangeCollection<Announcement> Announcements { get; set; }
 
         public ObservableCollection<UnitFilter> UnitFilters { get; set; }
 
@@ -18,23 +20,46 @@ namespace Uniq.ViewModels
 
             Title = "Announcements";
 
-            _filterVisible = false;
-
             ShowFilter = new Command(DisplayFilter);
+
+            UnitFilterToggle = new Command<UnitFilter>((_unit) => UnitToggle(_unit));
         }
 
         public Command ShowFilter { get; }
 
-        private Boolean _filterVisible;
-        public Boolean FilterVisible
+        public Command UnitFilterToggle { get; }
+
+        private bool _filterVisible;
+        public bool FilterVisible
         {
             get { return _filterVisible; }
             set { _filterVisible = value; }
         }
 
+        private UnitFilter _unit;
+        public UnitFilter Unit
+        {
+            get
+            {
+                return _unit;
+            }
+            set
+            {
+                _unit = value;
+
+                if (_unit == null)
+                    return;
+
+                UnitFilterToggle.Execute(_unit);
+
+                Unit = null;
+            }
+        }
         void SetupData()
         {
-            Announcements = new ObservableCollection<Announcement>()
+            _filterVisible = false;
+
+            Announcements = new ObservableRangeCollection<Announcement>()
             {
                 new Announcement
                 {
@@ -78,27 +103,42 @@ namespace Uniq.ViewModels
                 }
             };
 
+            string primaryColor = "#03bfff";
+            string secondaryColor = "#FFF";
+            
             UnitFilters = new ObservableCollection<UnitFilter>()
             {
                 new UnitFilter
                 {
                     UnitId = "CAB202",
-                    SelectedIcon = "tick.png"
+                    SelectedIcon = "tick.png",
+                    Status = true,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
                 },
                 new UnitFilter
                 {
                     UnitId = "CAB321",
-                    SelectedIcon = "cross.png"
+                    SelectedIcon = "cross.png",
+                    Status = true,
+                    BtnColor = secondaryColor,
+                    TextColor = "#000"
                 },
                 new UnitFilter
                 {
                     UnitId = "IAB123",
-                    SelectedIcon = "tick.png"
+                    SelectedIcon = "tick.png",
+                    Status = true,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
                 },
                 new UnitFilter
                 {
                     UnitId = "CAB123",
-                    SelectedIcon = "tick.png"
+                    SelectedIcon = "tick.png",
+                    Status = true,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
                 }
             };
         }
@@ -108,6 +148,16 @@ namespace Uniq.ViewModels
             Debug.WriteLine("filter test");
             FilterVisible = !FilterVisible;
             OnPropertyChanged(nameof(FilterVisible));
+        }
+
+        void UnitToggle( UnitFilter _unit)
+        {
+            Debug.WriteLine(_unit.BtnColor + " " + _unit.UnitId);
+
+            _unit.BtnColor = "#FFF";
+            OnPropertyChanged(nameof(Unit));
+
+            //Announcements.ReplaceRange(AllItems.Where)
         }
     }
 }

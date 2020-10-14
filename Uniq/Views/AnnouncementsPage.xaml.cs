@@ -12,5 +12,9 @@ namespace Uniq.Views
             InitializeComponent();
             //BindingContext = new AnnouncementsViewModel();
         }
+
+        void UnitFiltersList_ItemTapped(System.Object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+        }
     }
 }
