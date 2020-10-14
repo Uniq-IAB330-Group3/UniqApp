@@ -19,8 +19,8 @@ namespace Uniq.ViewModels
             TalkButtonCommand = new Command(OnTalkPressed);
             ContactButtonCommand = new Command(OnContactPressed);
             ExtensionButtonCommand = new Command(OnExtensionPressed);
-            TalkButtonCommand = new Command(OnAppointmentPressed);
-            TalkButtonCommand = new Command(OnManualPressed);
+            AppointmentButtonCommand = new Command(OnAppointmentPressed);
+            ManualButtonCommand = new Command(OnManualPressed);
 
             Title = "Support";
         }
