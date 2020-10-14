@@ -7,8 +7,13 @@ using Xamarin.Forms;
 namespace Uniq.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 039cb2a1abc0d03dfc841ee6403adf9d36a0f141
     public class ItemDetailViewModel : BaseViewModel
     {
+        public Planner plan;
         private string itemId;
         private string text;
         private string description;
