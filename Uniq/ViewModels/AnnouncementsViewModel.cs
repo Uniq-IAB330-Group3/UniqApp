@@ -5,12 +5,15 @@ using System.Diagnostics;
 using System;
 using System.Runtime.CompilerServices;
 using MvvmHelpers;
+using System.Linq;
 
 namespace Uniq.ViewModels
 {
     public class AnnouncementsViewModel : BaseViewModel
     {
         public ObservableRangeCollection<Announcement> Announcements { get; set; }
+
+        public ObservableRangeCollection<Announcement> AllAnnouncements { get; set; }
 
         public ObservableCollection<UnitFilter> UnitFilters { get; set; }
 
@@ -23,6 +26,7 @@ namespace Uniq.ViewModels
             ShowFilter = new Command(DisplayFilter);
 
             UnitFilterToggle = new Command<UnitFilter>((_unit) => UnitToggle(_unit));
+
         }
 
         public Command ShowFilter { get; }
@@ -59,7 +63,9 @@ namespace Uniq.ViewModels
         {
             _filterVisible = false;
 
-            Announcements = new ObservableRangeCollection<Announcement>()
+            Announcements = new ObservableRangeCollection<Announcement>();
+
+            AllAnnouncements = new ObservableRangeCollection<Announcement>()
             {
                 new Announcement
                 {
@@ -139,8 +145,18 @@ namespace Uniq.ViewModels
                     Status = true,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
+                },
+                new UnitFilter
+                {
+                    UnitId = "All",
+                    SelectedIcon = "tick.png",
+                    Status = true,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
                 }
             };
+
+            Announcements.ReplaceRange(AllAnnouncements);
         }
 
         void DisplayFilter()
@@ -150,13 +166,20 @@ namespace Uniq.ViewModels
         }
 
         void UnitToggle( UnitFilter _unit)
-        {
+        {       
             Debug.WriteLine(_unit.BtnColor + " " + _unit.UnitId);
 
             _unit.BtnColor = "#FFF";
             OnPropertyChanged(nameof(Unit));
 
-            //Announcements.ReplaceRange(AllItems.Where)
+            if (_unit.UnitId != "All")
+            {
+                Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Unit == _unit.UnitId));
+            }
+            else
+            {
+                Announcements.ReplaceRange(AllAnnouncements);
+            }
         }
     }
 }
