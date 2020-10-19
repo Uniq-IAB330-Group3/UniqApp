@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uniq.Views.CellsPage"
+             xmlns:vm="clr-namespace:Uniq.ViewModels"
+             xmlns:vm1="clr-namespace:ChatUIXForms.ViewModel">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm1:ChatTemplateSelector x:Key="MessageTemplateSelector" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:ChatPageViewModel />
+    </ContentPage.BindingContext>
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--Incoming and outgoing cells in Row 0-->
+        <ListView
+            x:Name="MessagesListView"
+            ItemTemplate="{StaticResource MessageTemplateSelector}"
+            ItemsSource="{Binding Messages}"
+            HasUnevenRows="True"
+            ItemSelected="MessagesListView_ItemSelected"/>
+
+        <!--Entry placeholder and send button in Row 1-->
+        <StackLayout Orientation="Horizontal" Grid.Row="1" Padding="10" BackgroundColor="#EFEFEF">
+            <Entry HorizontalOptions="FillAndExpand" HeightRequest="25" Placeholder="Message" Text="{Binding TextToSend}" />
+            <Button Text="Send" Command="{Binding OnSendCommand}" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

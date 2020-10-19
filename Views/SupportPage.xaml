@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Uniq.Views.SupportPage"
+             Shell.NavBarIsVisible="False"
+             xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:viewmodel="clr-namespace:Uniq.ViewModels"
+             xmlns:local="clr-namespace:Uniq;assembly=Uniq"
+             iOS:Page.UseSafeArea="true"
+             BackgroundColor="{StaticResource Primary}"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <viewmodel:SupportViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid BackgroundColor="{StaticResource Primary}" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Grid.Column="1"
+                   Text="Support"
+                   Style="{DynamicResource TitleStyle}" TextColor="White"/>
+            <ImageButton Source="profile.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Column = "2"
+                HeightRequest="30"
+                WidthRequest="30"
+                BackgroundColor="Transparent"/>
+            <Image Source="logo.png"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Grid.Column = "0"
+                HeightRequest="60"
+                WidthRequest="60"/>
+        </Grid>
+
+        <Grid Grid.Row="1" BackgroundColor="#f2f2f2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Padding="10">
+                <Button WidthRequest="200"
+                    Text="Talk to Support"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Command="{Binding TalkButtonCommand}"/>
+                <Button WidthRequest="200"
+                    Text="Contact Tutor"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Command="{Binding ContactButtonCommand}"/>
+                <Button WidthRequest="200"
+                    Text="Apply for Extension"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Command="{Binding ExtensionButtonCommand}"/>
+                <Button WidthRequest="200"
+                    Text="Book Councillor Appointment"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Command="{Binding AppointmentButtonCommand}"/>
+                <Button WidthRequest="200"
+                    Text="Other Support Services"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"/>
+                <Button WidthRequest="200"
+                    Text="App Manual"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Command="{Binding ManualButtonCommand}"/>
+            </StackLayout>
+        </Grid>
+
+
+        <!--<ScrollView Grid.Row="2" BackgroundColor="#f2f2f2" >
+            <StackLayout>
+                <Frame CornerRadius="5"
+                       Margin="10, 10, 10, 0"
+                       HasShadow="False"
+                       Padding="20, 20, 20, 50">
+                    <Grid  BackgroundColor="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="5*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="user1.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Start"
+                            Grid.Column = "0"
+                            HeightRequest="40"
+                            WidthRequest="40"/>
+                        <StackLayout Grid.Column="1">
+                            <Label Text="John Smith"
+                                   FontAttributes="Bold"
+                                   TextColor="Black"/>
+                            <Label Text="CAB202"
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                   TextColor="Black"/>
+                        </StackLayout>
+                        <Label Text="Tue 11:33am"
+                               Grid.Column="2"
+                               FontSize="Micro"
+                               TextColor="Gray"/>
+                    </Grid>
+                </Frame>
+               
+            </StackLayout>
+        </ScrollView>-->
+        
+        
+    </Grid>
+</ContentPage>
