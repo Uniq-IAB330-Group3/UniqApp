@@ -16,5 +16,6 @@ namespace Uniq.Views
         void UnitFiltersList_ItemTapped(System.Object sender, Xamarin.Forms.ItemTappedEventArgs e)
         {
         }
+
     }
 }
