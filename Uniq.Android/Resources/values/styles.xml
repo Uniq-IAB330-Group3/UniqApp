@@ -12,5 +12,21 @@
         <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
         <!--<item name="colorAccent">#FF4081</item>-->
+        <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
+        <item name="android:timePickerDialogTheme">@style/TimePickerDialogTheme</item>
     </style>
+  <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">#00A6FF</item>
+  </style>
+  <style name="TimePickerDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">#00A6FF</item>
+    <item name="android:timePickerStyle">@style/TimePickerDialogStyle</item>
+  </style>
+
+  <style name="TimePickerDialogStyle" parent="@android:style/Widget.Material.Light.TimePicker">
+    <item name="colorAccent">#00A6FF</item>
+    <item name="android:timePickerMode">clock</item>
+    <item name="android:headerBackground">#00A6FF </item>
+
+  </style>
 </resources>
