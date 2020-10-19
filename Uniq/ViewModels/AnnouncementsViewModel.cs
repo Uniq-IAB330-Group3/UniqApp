@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System;
 using System.Runtime.CompilerServices;
 using MvvmHelpers;
+using System.Linq;
 
 namespace Uniq.ViewModels
 {
@@ -12,20 +13,17 @@ namespace Uniq.ViewModels
     {
         public ObservableRangeCollection<Announcement> Announcements { get; set; }
 
+        public ObservableRangeCollection<Announcement> AllAnnouncements { get; set; }
+
         public ObservableCollection<UnitFilter> UnitFilters { get; set; }
 
-        public AnnouncementsViewModel()
-        {
-            SetupData();
-
-            Title = "Announcements";
-
-            ShowFilter = new Command(DisplayFilter);
-
-            UnitFilterToggle = new Command<UnitFilter>((_unit) => UnitToggle(_unit));
-        }
-
         public Command ShowFilter { get; }
+
+        public Command ShowSortBy { get; }
+
+        public Command GroupByUnit { get; }
+
+        public Command GroupByAnnouncer { get; }
 
         public Command UnitFilterToggle { get; }
 
@@ -34,6 +32,13 @@ namespace Uniq.ViewModels
         {
             get { return _filterVisible; }
             set { _filterVisible = value; }
+        }
+
+        private bool _sortByVisible;
+        public bool SortByVisible
+        {
+            get { return _sortByVisible; }
+            set { _sortByVisible = value; }
         }
 
         private UnitFilter _unit;
@@ -55,11 +60,46 @@ namespace Uniq.ViewModels
                 Unit = null;
             }
         }
+
+        //private bool _toggle;
+        //public bool Toggle
+        //{
+        //    get
+        //    {
+        //        return _toggle;
+        //    }
+        //    set
+        //    {
+        //        _toggle = value;
+        //        UnitFilterToggle.Execute(_unit);
+        //    }
+        //}
+
+        public AnnouncementsViewModel()
+        {
+            SetupData();
+
+            Title = "Announcements";
+
+            ShowFilter = new Command(DisplayFilter);
+
+            ShowSortBy = new Command(DisplaySortBy);
+
+            GroupByUnit = new Command(GroupByU);
+
+            GroupByAnnouncer = new Command(GroupByA);
+
+            UnitFilterToggle = new Command<UnitFilter>((_unit) => UnitToggle(_unit));
+
+        }
+
         void SetupData()
         {
             _filterVisible = false;
 
-            Announcements = new ObservableRangeCollection<Announcement>()
+            Announcements = new ObservableRangeCollection<Announcement>();
+
+            AllAnnouncements = new ObservableRangeCollection<Announcement>()
             {
                 new Announcement
                 {
@@ -100,6 +140,30 @@ namespace Uniq.ViewModels
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     ProfileImage = "user5.png",
                     TimePosted = "Fri 12:14pm"
+                },
+                new Announcement
+                {
+                    Name = "Lucy Matthews",
+                    Unit = "CAB123",
+                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    ProfileImage = "user6.png",
+                    TimePosted = "Fri 8:59am"
+                },
+                new Announcement
+                {
+                    Name = "Toby Batchler",
+                    Unit = "CAB321",
+                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+                    ProfileImage = "user7.png",
+                    TimePosted = "Thu 9:29pm"
+                },
+                new Announcement
+                {
+                    Name = "David Webb",
+                    Unit = "CAB123",
+                    Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    ProfileImage = "user2.png",
+                    TimePosted = "Thu 11:11am"
                 }
             };
 
@@ -112,7 +176,7 @@ namespace Uniq.ViewModels
                 {
                     UnitId = "CAB202",
                     SelectedIcon = "tick.png",
-                    Status = true,
+                    Status = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 },
@@ -120,15 +184,15 @@ namespace Uniq.ViewModels
                 {
                     UnitId = "CAB321",
                     SelectedIcon = "cross.png",
-                    Status = true,
-                    BtnColor = secondaryColor,
-                    TextColor = "#000"
+                    Status = false,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
                 },
                 new UnitFilter
                 {
                     UnitId = "IAB153",
                     SelectedIcon = "tick.png",
-                    Status = true,
+                    Status = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 },
@@ -136,11 +200,21 @@ namespace Uniq.ViewModels
                 {
                     UnitId = "CAB123",
                     SelectedIcon = "tick.png",
+                    Status = false,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
+                },
+                new UnitFilter
+                {
+                    UnitId = "All",
+                    SelectedIcon = "tick.png",
                     Status = true,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 }
             };
+
+            Announcements.ReplaceRange(AllAnnouncements);
         }
 
         void DisplayFilter()
@@ -149,14 +223,58 @@ namespace Uniq.ViewModels
             OnPropertyChanged(nameof(FilterVisible));
         }
 
-        void UnitToggle( UnitFilter _unit)
+        void DisplaySortBy()
         {
-            Debug.WriteLine(_unit.BtnColor + " " + _unit.UnitId);
+            SortByVisible = !SortByVisible;
+            OnPropertyChanged(nameof(SortByVisible));
+        }
 
-            _unit.BtnColor = "#FFF";
-            OnPropertyChanged(nameof(Unit));
+        void GroupByU()
+        {
+            Announcements = new ObservableRangeCollection<Announcement>(Announcements.OrderBy(a => a.Unit).ToList());
 
-            //Announcements.ReplaceRange(AllItems.Where)
+            OnPropertyChanged(nameof(Announcements));
+        }
+
+        void GroupByA()
+        {
+            Announcements = new ObservableRangeCollection<Announcement>(Announcements.OrderBy(a => a.Name).ToList());
+
+            OnPropertyChanged(nameof(Announcements));
+        }
+
+        //void OnCheckBoxCheckedChanged()
+        //{
+        //    UnitToggle(Unit);
+        //}
+
+        void UnitToggle( UnitFilter unit)
+        {
+            unit.BtnColor = "#FFF";
+
+            unit.Status = !unit.Status;
+            OnPropertyChanged(nameof(Unit.Status));
+            Debug.WriteLine(Unit.UnitId + " " + Unit.Status);
+
+            if (unit.Status)
+            {
+                unit.SelectedIcon = "tick.png";
+            } else
+            {
+                unit.SelectedIcon = "cross.png";
+            }
+            OnPropertyChanged(nameof(Unit.SelectedIcon));
+
+
+            if (unit.UnitId != "All")
+            {
+                Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Unit == unit.UnitId));
+            }
+            else
+            {
+                Announcements.ReplaceRange(AllAnnouncements);
+            }
+
         }
     }
 }
