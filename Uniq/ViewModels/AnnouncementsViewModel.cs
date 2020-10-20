@@ -61,20 +61,6 @@ namespace Uniq.ViewModels
             }
         }
 
-        //private bool _toggle;
-        //public bool Toggle
-        //{
-        //    get
-        //    {
-        //        return _toggle;
-        //    }
-        //    set
-        //    {
-        //        _toggle = value;
-        //        UnitFilterToggle.Execute(_unit);
-        //    }
-        //}
-
         public AnnouncementsViewModel()
         {
             SetupData();
