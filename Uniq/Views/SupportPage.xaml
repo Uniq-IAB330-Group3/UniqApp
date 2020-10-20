@@ -55,35 +55,41 @@
 
         <Grid Grid.Row="1" BackgroundColor="#f2f2f2">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
             <StackLayout Padding="10">
-                <Button WidthRequest="200"
+                <Button
                     Text="Talk to Support"
+                    WidthRequest="250"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding TalkButtonCommand}"/>
-                <Button WidthRequest="200"
+                <Button
                     Text="Contact Tutor"
+                    WidthRequest="250"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding ContactButtonCommand}"/>
-                <Button WidthRequest="200"
+                <Button
                     Text="Apply for Extension"
+                    WidthRequest="250"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding ExtensionButtonCommand}"/>
-                <Button WidthRequest="200"
+                <Button
                     Text="Book Councillor Appointment"
+                    WidthRequest="250"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding AppointmentButtonCommand}"/>
-                <Button WidthRequest="200"
+                <Button
                     Text="Other Support Services"
+                    WidthRequest="250"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"/>
-                <Button WidthRequest="200"
+                <Button
                     Text="App Manual"
+                    WidthRequest="250"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="Center"
                     Command="{Binding ManualButtonCommand}"/>

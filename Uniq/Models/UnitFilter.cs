@@ -1,4 +1,5 @@
 ﻿using System;
+using MvvmHelpers;
 
 namespace Uniq.Models
 {
@@ -9,5 +10,6 @@ namespace Uniq.Models
         public bool Status { get; set; }
         public string TextColor { get; set; }
         public string BtnColor { get; set; }
+
     }
 }

@@ -1,4 +1,4 @@
-﻿using Uniq;
+using Uniq;
 using Uniq.Models;
 using Uniq.Views;
 using Xamarin.Forms;

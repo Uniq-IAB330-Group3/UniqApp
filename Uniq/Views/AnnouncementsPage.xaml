@@ -82,7 +82,8 @@
                 Grid.Column = "0"
                 HeightRequest="25"
                 WidthRequest="25"
-                BackgroundColor="Transparent"/>
+                BackgroundColor="Transparent"
+                Command="{Binding ShowSortBy}"/>
         </Grid>
 
         <ListView x:Name="AnnouncementsList"
@@ -168,13 +169,13 @@
                        FontSize="Medium"
                        Margin="30, 0, 30, 0"
                        FontAttributes="Bold"
-                />
+                /> 
                 <ListView x:Name="UnitFiltersList"
-                    ItemsSource="{Binding UnitFilters}"
+                    ItemsSource="{Binding UnitFilters, Mode=TwoWay}"
                     Grid.Row="2"
                     BackgroundColor="#F444"
                     IsPullToRefreshEnabled="False"
-                    SelectedItem="{Binding Unit, Mode=TwoWay}">
+                    SelectedItem="{Binding Unit}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -191,27 +192,130 @@
                                         Margin="3"
                                         Padding="9"
                                         HasShadow="False">
-                                        <!--<Frame.GestureRecognizers>
-                                            <TapGestureRecognizer Command="{Binding UnitFilterToggle}"/>
-                                        </Frame.GestureRecognizers>-->
                                         <StackLayout Orientation="Horizontal"
-                                                        HorizontalOptions="Center"
-                                                        VerticalOptions="Center">
-                                            <Image Source="{Binding SelectedIcon}"
-                                                    HorizontalOptions="Center"/>
+                                                    HorizontalOptions="Center"
+                                                    VerticalOptions="Center">
+                                            <!--<Image Source="{Binding SelectedIcon}"
+                                                    HorizontalOptions="Center"/>-->
+                                            <!--<CheckBox IsChecked= "{Binding Source={RelativeSource TemplatedParent}}"
+                                                      x:Name="UnitCheckbox"
+                                                      Color="#FFF"
+                                                      />-->
                                             <Label Text="{Binding UnitId}"
                                                 TextColor="{Binding TextColor}"
                                                 HorizontalTextAlignment="Center"
                                                 VerticalTextAlignment="Center"
                                                 FontSize="Medium"
-                                            />
+                                            /> 
                                         </StackLayout>
+                                        <!--<Frame.Triggers>
+                                            <DataTrigger TargetType="Frame"
+                                                            Binding="{Binding {x:Reference UnitCheckbox} path="IsChecked"}"
+                                                            Value="true">
+                                                <Setter Property="BackgroundColor"
+                                                        Value="Red" />
+                                            </DataTrigger>
+                                        </Frame.Triggers>-->
                                     </Frame>
+                                    
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
+            </StackLayout>
+        </Grid>
+
+
+        <Grid Grid.Row="2"
+              IsVisible="{Binding SortByVisible}"
+              >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.ColumnSpan="2"
+                Grid.Column="0"
+                BackgroundColor="#F444">
+                <Label Text="Sort By:"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="Medium"
+                       Margin="10"
+                       FontAttributes="Bold"
+                />
+                <Frame CornerRadius="20"
+                        BackgroundColor="{StaticResource Primary}"
+                        Grid.Column = "0"
+                        Margin="3"
+                        Padding="9"
+                        HasShadow="False">
+                    <Grid BackgroundColor="#F444"
+                            Margin="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    
+                            <Label Text="Newest to Oldest"
+                                    TextColor="White"
+                                    HorizontalTextAlignment="Center"
+                                    VerticalTextAlignment="Center"
+                                    FontSize="Small"
+                                    BackgroundColor="{StaticResource Primary}"
+                                    Grid.Column="0"
+                                />
+                            <Label Text="Oldest to Newest"
+                                    TextColor="White"
+                                    HorizontalTextAlignment="Center"
+                                    VerticalTextAlignment="Center"
+                                    FontSize="Small"
+                                    BackgroundColor="{StaticResource Primary}"
+                                    Grid.Column="1"
+                                />
+                    </Grid> 
+                </Frame>
+
+                <Label Text="Group By:"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="Medium"
+                       Margin="10"
+                       FontAttributes="Bold"
+                />
+                <Grid BackgroundColor="#F444"
+                        Margin="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Text="Unit"
+                                TextColor="White"
+                                FontSize="Medium"
+                                TextTransform="None"
+                                CornerRadius="23"
+                                Grid.Column = "1"
+                                Command="{Binding GroupByUnit}"
+                            /> 
+                </Grid>
+                <Grid BackgroundColor="#F444"
+                        Margin="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Text="Announcer"
+                                TextColor="White"
+                                FontSize="Medium"
+                                TextTransform="None"
+                                CornerRadius="23"
+                                Grid.Column = "1"
+                                Command="{Binding GroupByAnnouncer}"
+                            /> 
+                </Grid>
             </StackLayout>
         </Grid>
     </Grid>
