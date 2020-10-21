@@ -79,7 +79,7 @@ namespace Uniq.ViewModels
 
             GroupByAnnouncer = new Command(GroupByA);
 
-            UnitFilterToggle = new Command<UnitFilter>((_unit) => UnitToggle(_unit));
+            UnitFilterToggle = new Command<String>((_unit) => UnitToggle(_unit));
 
             ProfileCommand = new Command(async () =>
             {
@@ -91,6 +91,7 @@ namespace Uniq.ViewModels
         void SetupData()
         {
             _filterVisible = false;
+            _sortByVisible = false;
 
             Announcements = new ObservableRangeCollection<Announcement>();
 
@@ -238,33 +239,11 @@ namespace Uniq.ViewModels
             OnPropertyChanged(nameof(Announcements));
         }
 
-        //void OnCheckBoxCheckedChanged()
-        //{
-        //    UnitToggle(Unit);
-        //}
-
-        void UnitToggle(UnitFilter unit)
-        {
-            unit.BtnColor = "#FFF";
-
-            unit.Status = !unit.Status;
-            OnPropertyChanged(nameof(Unit.Status));
-            Debug.WriteLine(Unit.UnitId + " " + Unit.Status);
-
-            if (unit.Status)
+        void UnitToggle(String unitId)
+        { 
+            if (unitId != "All")
             {
-                unit.SelectedIcon = "tick.png";
-            }
-            else
-            {
-                unit.SelectedIcon = "cross.png";
-            }
-            OnPropertyChanged(nameof(Unit.SelectedIcon));
-
-
-            if (unit.UnitId != "All")
-            {
-                Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Unit == unit.UnitId));
+                Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Unit == unitId));
             }
             else
             {

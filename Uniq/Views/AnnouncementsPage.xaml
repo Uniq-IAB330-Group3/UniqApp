@@ -176,7 +176,8 @@
                     Grid.Row="2"
                     BackgroundColor="#F444"
                     IsPullToRefreshEnabled="False"
-                    SelectedItem="{Binding Unit}">
+                    SelectedItem="{Binding Unit}"
+                    SelectionMode="None">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -187,7 +188,7 @@
                                         <ColumnDefinition Width="2*"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Frame CornerRadius="20"
+                                    <!--<Frame CornerRadius="20"
                                         BackgroundColor="{Binding BtnColor}"
                                         Grid.Column = "1"
                                         Margin="3"
@@ -203,8 +204,18 @@
                                                 FontSize="Medium"
                                             /> 
                                         </StackLayout>
-                                    </Frame>
-                                    
+                                    </Frame>-->
+                                    <Button Text="{Binding UnitId}"
+                                        TextColor="{Binding TextColor}"
+                                        FontSize="Medium"
+                                        Margin="3"
+                                        Padding="9"
+                                        TextTransform="None"
+                                        CornerRadius="23"
+                                        Grid.Column = "1"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AnnouncementsViewModel}}, Path=UnitFilterToggle}"
+                                        CommandParameter="{Binding UnitId}"
+                                    /> 
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>
