@@ -35,7 +35,11 @@
         <Tab Title="Support" Icon="tab_about.png">
             <ShellContent  ContentTemplate="{DataTemplate local:SupportPage}" />
         </Tab>
+<<<<<<< HEAD
         <Tab Title="Course Contents" Icon="tab_books.png">
+=======
+        <Tab Title="Support" Icon="tab_books.png">
+>>>>>>> 908c535f2d4c2c7afabc1640892c35fd231fafde
             <ShellContent  ContentTemplate="{DataTemplate local:ContentsPage}" />
         </Tab>
     </TabBar>
