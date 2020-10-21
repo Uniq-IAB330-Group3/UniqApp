@@ -2,7 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Uniq.Views.ContentsPage"
-             BackgroundColor="#00A6FF">
+             BackgroundColor="{StaticResource Primary}"
+             Shell.NavBarIsVisible="False"
+             iOS:Page.UseSafeArea="true"
+             xmlns:model="clr-namespace:Uniq.Models">
 
 
     <Grid BackgroundColor="#00A6FF" >
