@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
+<!-- All icons retrieved from www.flaticon.com - Author: Freepik -->
+<!-- Photos from unplash.com
+     Authors:
+        Robert Godwin - https://unsplash.com/@funpictures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+        Michael Dam - https://unsplash.com/@michaeldam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+        Ben Parker - https://unsplash.com/@brokenlenscap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+-->
+ 
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Uniq.Views.AnnouncementsPage"
@@ -198,7 +207,7 @@
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AnnouncementsViewModel}}, Path=UnitFilterToggle}"
                                         CommandParameter="{Binding UnitId}"
                                         >
-                                        <VisualStateManager.VisualStateGroups>
+                                        <!--<VisualStateManager.VisualStateGroups>
                                             <VisualStateGroup x:Name="CommonStates">
                                                 <VisualState x:Name="Normal">
                                                     <VisualState.Setters>
@@ -211,7 +220,7 @@
                                                     </VisualState.Setters>
                                                 </VisualState>
                                             </VisualStateGroup>
-                                        </VisualStateManager.VisualStateGroups>
+                                        </VisualStateManager.VisualStateGroups>-->
                                     </Button>
                                 </Grid>
                             </ViewCell>
