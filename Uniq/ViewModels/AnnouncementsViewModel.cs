@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using Uniq.Models;
+using Uniq.Views;
 using Xamarin.Forms;
 using System.Diagnostics;
 using System;
@@ -26,6 +27,9 @@ namespace Uniq.ViewModels
         public Command GroupByAnnouncer { get; }
 
         public Command UnitFilterToggle { get; }
+
+        public Command ProfileCommand { get; }
+
 
         private bool _filterVisible;
         public bool FilterVisible
@@ -76,6 +80,11 @@ namespace Uniq.ViewModels
             GroupByAnnouncer = new Command(GroupByA);
 
             UnitFilterToggle = new Command<UnitFilter>((_unit) => UnitToggle(_unit));
+
+            ProfileCommand = new Command(async () =>
+            {
+                await Application.Current.MainPage.Navigation.PushAsync(new ProfileViewPage());
+            });
 
         }
 

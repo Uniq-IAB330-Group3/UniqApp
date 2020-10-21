@@ -35,12 +35,9 @@
         <Tab Title="Support" Icon="tab_about.png">
             <ShellContent  ContentTemplate="{DataTemplate local:SupportPage}" />
         </Tab>
-<<<<<<< HEAD
         <Tab Title="Support" Icon="tab_books.png">
             <ShellContent  ContentTemplate="{DataTemplate local:ContentsPage}" />
         </Tab>
-=======
->>>>>>> development
     </TabBar>
     <!--
         If you would like to navigate to this content you can do so by calling

@@ -45,7 +45,8 @@
                 Grid.Column = "2"
                 HeightRequest="30"
                 WidthRequest="30"
-                BackgroundColor="Transparent"/>
+                BackgroundColor="Transparent"
+                Command="{Binding ProfileCommand}"/>
             <Image Source="logo.png"
                 HorizontalOptions="Center"
                 VerticalOptions="End"
