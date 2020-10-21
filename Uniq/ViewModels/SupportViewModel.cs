@@ -9,37 +9,65 @@ using Uniq.Views;
 namespace Uniq.ViewModels
 {
     public class SupportViewModel : BaseViewModel {
-        public Command TalkButtonCommand { get; }
-        public Command ContactButtonCommand { get; }
-        public Command ExtensionButtonCommand { get; }
-        public Command AppointmentButtonCommand { get; }
-        public Command ManualButtonCommand { get; }
+        public Command OnTapCommand { get; }
+
+        public ObservableCollection<SupportButton> Buttons { get; set; }
 
         public SupportViewModel() {
-            TalkButtonCommand = new Command(OnTalkPressed);
-            ContactButtonCommand = new Command(OnContactPressed);
-            ExtensionButtonCommand = new Command(OnExtensionPressed);
-            AppointmentButtonCommand = new Command(OnAppointmentPressed);
-            ManualButtonCommand = new Command(OnManualPressed);
+            OnTapCommand = new Command(() => { OnTapped(nameof(TalkPage)); });
+
+            SetupData();
 
             Title = "Support";
         }
 
-        async void OnTalkPressed() {
-            await Shell.Current.GoToAsync($"{nameof(TalkPage)}");
-        }
-        async void OnContactPressed() {
-            await Shell.Current.GoToAsync($"{nameof(ContactPage)}");
-        }
-        async void OnExtensionPressed() {
-            await Shell.Current.GoToAsync($"{nameof(ExtensionPage)}");
-        }
-        async void OnAppointmentPressed() {
-            await Shell.Current.GoToAsync($"{nameof(AppointmentPage)}");
-        }
-        async void OnManualPressed() {
-            await Shell.Current.GoToAsync($"{nameof(ManualPage)}");
+        void SetupData() {
+            Buttons = new ObservableCollection<SupportButton>()
+            {
+                new SupportButton
+                {
+                    Icon = "profile.png",
+                    Text = "Talk to Support",
+                    Command = new Command(() => { OnTapped(nameof(TalkPage)); })
+        },
+                new SupportButton
+                {
+                    Icon = "sortBy.png",
+                    Text = "Contact Tutor",
+                    Command = new Command(() => { OnTapped(nameof(ContactPage)); })
+                },
+                new SupportButton
+                {
+                    Icon = "timer.png",
+                    Text = "Apply for Extension",
+                    Command = new Command(() => { OnTapped(nameof(ExtensionPage)); })
+                },
+                new SupportButton
+                {
+                    Icon = "chat.png",
+                    Text = "Book Councillor Appointment",
+                    Command = new Command(() => { OnTapped(nameof(AppointmentPage)); })
+                },
+                new SupportButton
+                {
+                    Icon = "tab_feed.png",
+                    Text = "Other Support Services",
+                    Command = new Command(() => { OnTapped("Other"); })
+                },
+                new SupportButton
+                {
+                    Icon = "tab_about.png",
+                    Text = "App Manual",
+                    Command = new Command(() => { OnTapped(nameof(ManualPage)); })
+                }
+            };
         }
 
+        async void OnTapped(string destination) {
+            if (destination != "Other") 
+            {
+                await Shell.Current.GoToAsync($"{destination}");
+            }
+        }
     }
 }

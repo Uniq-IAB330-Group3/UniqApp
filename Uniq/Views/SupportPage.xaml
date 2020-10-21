@@ -57,85 +57,49 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
-            <StackLayout Padding="10">
-                <Button
-                    Text="Talk to Support"
-                    WidthRequest="250"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Command="{Binding TalkButtonCommand}"/>
-                <Button
-                    Text="Contact Tutor"
-                    WidthRequest="250"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Command="{Binding ContactButtonCommand}"/>
-                <Button
-                    Text="Apply for Extension"
-                    WidthRequest="250"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Command="{Binding ExtensionButtonCommand}"/>
-                <Button
-                    Text="Book Councillor Appointment"
-                    WidthRequest="250"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Command="{Binding AppointmentButtonCommand}"/>
-                <Button
-                    Text="Other Support Services"
-                    WidthRequest="250"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"/>
-                <Button
-                    Text="App Manual"
-                    WidthRequest="250"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="Center"
-                    Command="{Binding ManualButtonCommand}"/>
-            </StackLayout>
+            <ListView ItemsSource="{Binding Buttons}"
+                      HasUnevenRows="true"
+                      Grid.Row="0"
+                      IsPullToRefreshEnabled="True"
+                      BackgroundColor="White">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="0" Margin="0,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.RowSpan="2"
+                                        Margin="30,0"
+                                        Source="{Binding Icon}"
+                                        HeightRequest="40"
+                                        WidthRequest="40">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Command}">
+                                        </TapGestureRecognizer>
+                                    </Image.GestureRecognizers>
+                                </Image>
+                                <Label Grid.Column="1"
+                                        Margin="-25,25"
+                                        Text="{Binding Text}"
+                                        TextColor="Black"
+                                        FontSize="18" />
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Command}">
+                                    </TapGestureRecognizer>
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </Grid>
 
-
-        <!--<ScrollView Grid.Row="2" BackgroundColor="#f2f2f2" >
-            <StackLayout>
-                <Frame CornerRadius="5"
-                       Margin="10, 10, 10, 0"
-                       HasShadow="False"
-                       Padding="20, 20, 20, 50">
-                    <Grid  BackgroundColor="White">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="5*" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-
-                        <Image Source="user1.png"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Start"
-                            Grid.Column = "0"
-                            HeightRequest="40"
-                            WidthRequest="40"/>
-                        <StackLayout Grid.Column="1">
-                            <Label Text="John Smith"
-                                   FontAttributes="Bold"
-                                   TextColor="Black"/>
-                            <Label Text="CAB202"
-                                   FontSize="Small"
-                                   TextColor="Black"/>
-                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                                   TextColor="Black"/>
-                        </StackLayout>
-                        <Label Text="Tue 11:33am"
-                               Grid.Column="2"
-                               FontSize="Micro"
-                               TextColor="Gray"/>
-                    </Grid>
-                </Frame>
-               
-            </StackLayout>
-        </ScrollView>-->
-        
-        
     </Grid>
 </ContentPage>
