@@ -4,6 +4,7 @@
              x:Class="Uniq.Views.ContentsPage"
              BackgroundColor="{StaticResource Primary}"
              Shell.NavBarIsVisible="False"
+             xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              iOS:Page.UseSafeArea="true"
              xmlns:model="clr-namespace:Uniq.Models">
 
