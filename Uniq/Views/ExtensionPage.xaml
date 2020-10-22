@@ -8,6 +8,6 @@
         <StackLayout Padding="0,-50,0,0"/>
         <DatePicker Format="D"/>
         <Editor Placeholder="Reason for Extension" />
-        <Button Text="Submit"/>
+        <Button Text="Submit" Command="{Binding OnTapCommand}"/>
     </StackLayout>
 </ContentPage>
