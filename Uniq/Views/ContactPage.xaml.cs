@@ -11,5 +11,8 @@ namespace Uniq.Views
             InitializeComponent();
             BindingContext = new ContactViewModel();
         }
+        void MessagesListView_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e) {
+
+        }
     }
 }
