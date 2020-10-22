@@ -26,25 +26,25 @@ namespace Uniq.ViewModels
             {
                 new SupportButton
                 {
-                    Icon = "profile.png",
+                    Icon = "profile2.png", // Icon from https://www.flaticon.com/authors/becris
                     Text = "Talk to Support",
                     Command = new Command(() => { OnTapped(nameof(TalkPage)); })
         },
                 new SupportButton
                 {
-                    Icon = "sortBy.png",
+                    Icon = "teacher.png", 
                     Text = "Contact Tutor",
                     Command = new Command(() => { OnTapped(nameof(ContactPage)); })
                 },
                 new SupportButton
                 {
-                    Icon = "timer.png",
+                    Icon = "clock.png", // Icon from https://www.flaticon.com/authors/dmitri13
                     Text = "Apply for Extension",
                     Command = new Command(() => { OnTapped(nameof(ExtensionPage)); })
                 },
                 new SupportButton
                 {
-                    Icon = "chat.png",
+                    Icon = "happy.png", // Icon from https://www.flaticon.com/authors/smartline
                     Text = "Book Councillor Appointment",
                     Command = new Command(() => { OnTapped(nameof(AppointmentPage)); })
                 },
