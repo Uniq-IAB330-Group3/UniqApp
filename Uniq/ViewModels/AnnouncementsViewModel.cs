@@ -16,7 +16,9 @@ namespace Uniq.ViewModels
 
         public ObservableRangeCollection<Announcement> AllAnnouncements { get; set; }
 
-        public ObservableCollection<UnitFilter> UnitFilters { get; set; }
+        public ObservableCollection<Filter> UnitFilters { get; set; }
+
+        public ObservableCollection<Filter> CategoryFilters { get; set; }
 
         public Command ShowFilter { get; }
 
@@ -26,7 +28,7 @@ namespace Uniq.ViewModels
 
         public Command GroupByAnnouncer { get; }
 
-        public Command UnitFilterToggle { get; }
+        public Command FilterToggle { get; }
 
         public Command ProfileCommand { get; }
 
@@ -45,8 +47,8 @@ namespace Uniq.ViewModels
             set { _sortByVisible = value; }
         }
 
-        private UnitFilter _unit;
-        public UnitFilter Unit
+        private Filter _unit;
+        public Filter Unit
         {
             get
             {
@@ -59,7 +61,7 @@ namespace Uniq.ViewModels
                 if (_unit == null)
                     return;
 
-                UnitFilterToggle.Execute(_unit);
+                FilterToggle.Execute(_unit);
 
                 Unit = null;
             }
@@ -79,7 +81,7 @@ namespace Uniq.ViewModels
 
             GroupByAnnouncer = new Command(GroupByA);
 
-            UnitFilterToggle = new Command<String>((_unit) => UnitToggle(_unit));
+            FilterToggle = new Command<String>((_unit) => FilterAnnouncements(_unit));
 
             ProfileCommand = new Command(async () =>
             {
@@ -103,7 +105,8 @@ namespace Uniq.ViewModels
                     Unit = "CAB202",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     ProfileImage = "user1.png",
-                    TimePosted = "Tue 11:32am"
+                    TimePosted = "Tue 11:32am",
+                    Category = "Lectures"
                 },
                 new Announcement
                 {
@@ -111,7 +114,8 @@ namespace Uniq.ViewModels
                     Unit = "CAB123",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     ProfileImage = "user2.png",
-                    TimePosted = "Tue 8:11am"
+                    TimePosted = "Tue 8:11am",
+                    Category = "Assignments"
                 },
                 new Announcement
                 {
@@ -119,7 +123,8 @@ namespace Uniq.ViewModels
                     Unit = "IAB153",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     ProfileImage = "user3.png",
-                    TimePosted = "Mon 8:44pm"
+                    TimePosted = "Mon 8:44pm",
+                    Category = "Exams"
                 },
                 new Announcement
                 {
@@ -127,7 +132,8 @@ namespace Uniq.ViewModels
                     Unit = "CAB321",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
                     ProfileImage = "user4.png",
-                    TimePosted = "Mon 8:29pm"
+                    TimePosted = "Mon 8:29pm",
+                    Category = "Assignments"
                 },
                 new Announcement
                 {
@@ -135,7 +141,8 @@ namespace Uniq.ViewModels
                     Unit = "CAB123",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     ProfileImage = "user5.png",
-                    TimePosted = "Fri 12:14pm"
+                    TimePosted = "Fri 12:14pm",
+                    Category = "Lectures"
                 },
                 new Announcement
                 {
@@ -143,7 +150,8 @@ namespace Uniq.ViewModels
                     Unit = "CAB123",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     ProfileImage = "user6.png",
-                    TimePosted = "Fri 8:59am"
+                    TimePosted = "Fri 8:59am",
+                    Category = "Exams"
                 },
                 new Announcement
                 {
@@ -151,7 +159,8 @@ namespace Uniq.ViewModels
                     Unit = "CAB321",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
                     ProfileImage = "user7.png",
-                    TimePosted = "Thu 9:29pm"
+                    TimePosted = "Thu 9:29pm",
+                    Category = "Lectures"
                 },
                 new Announcement
                 {
@@ -159,52 +168,73 @@ namespace Uniq.ViewModels
                     Unit = "CAB123",
                     Content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     ProfileImage = "user2.png",
-                    TimePosted = "Thu 11:11am"
+                    TimePosted = "Thu 11:11am",
+                    Category = "Assignments"
                 }
             };
 
             string primaryColor = "#03bfff";
             string secondaryColor = "#FFF";
 
-            UnitFilters = new ObservableCollection<UnitFilter>()
+            UnitFilters = new ObservableCollection<Filter>()
             {
-                new UnitFilter
+                new Filter
                 {
-                    UnitId = "CAB202",
+                    Name = "CAB202",
                     SelectedIcon = "tick.png",
-                    Status = false,
+                    Selected = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 },
-                new UnitFilter
+                new Filter
                 {
-                    UnitId = "CAB321",
+                    Name = "CAB321",
                     SelectedIcon = "cross.png",
-                    Status = false,
+                    Selected = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 },
-                new UnitFilter
+                new Filter
                 {
-                    UnitId = "IAB153",
+                    Name = "IAB153",
                     SelectedIcon = "tick.png",
-                    Status = false,
+                    Selected = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 },
-                new UnitFilter
+                new Filter
                 {
-                    UnitId = "CAB123",
+                    Name = "CAB123",
                     SelectedIcon = "tick.png",
-                    Status = false,
+                    Selected = false,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
+                }
+            };
+
+            CategoryFilters = new ObservableCollection<Filter>()
+            {
+                new Filter
+                {
+                    Name = "Assignments",
+                    SelectedIcon = "tick.png",
+                    Selected = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 },
-                new UnitFilter
+                new Filter
                 {
-                    UnitId = "All",
+                    Name = "Lectures",
+                    SelectedIcon = "cross.png",
+                    Selected = false,
+                    BtnColor = primaryColor,
+                    TextColor = secondaryColor
+                },
+                new Filter
+                {
+                    Name = "Exams",
                     SelectedIcon = "tick.png",
-                    Status = true,
+                    Selected = false,
                     BtnColor = primaryColor,
                     TextColor = secondaryColor
                 }
@@ -239,17 +269,29 @@ namespace Uniq.ViewModels
             OnPropertyChanged(nameof(Announcements));
         }
 
-        void UnitToggle(String unitId)
+        void FilterAnnouncements(String filterParam)
         { 
-            if (unitId != "All")
+            if (filterParam != "All")
             {
-                Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Unit == unitId));
+                foreach (Filter u in UnitFilters)
+                {
+                    if(filterParam == u.Name)
+                    {
+                        Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Unit == filterParam));
+                    }
+                }
+                foreach (Filter c in CategoryFilters)
+                {
+                    if (filterParam == c.Name)
+                    {
+                        Announcements.ReplaceRange(AllAnnouncements.Where(a => a.Category == filterParam));
+                    }
+                }
             }
             else
             {
                 Announcements.ReplaceRange(AllAnnouncements);
             }
-
         }
     }
 }

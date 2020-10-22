@@ -8457,10 +8457,16 @@ namespace Uniq.Droid
 			public const int user5 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int video = 2131165326;
+			public const int user6 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int xamarin_logo = 2131165327;
+			public const int user7 = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int video = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int xamarin_logo = 2131165329;
 			
 			static Drawable()
 			{

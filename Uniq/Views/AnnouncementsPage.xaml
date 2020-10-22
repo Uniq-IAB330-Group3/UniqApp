@@ -170,9 +170,29 @@
                        TextColor="White"
                        HorizontalTextAlignment="Center"
                        FontSize="Medium"
-                       Margin="10"
+                       Margin="0, 10, 0, 0"
                        FontAttributes="Bold"
                 />
+                <Grid MinimumHeightRequest="40">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Text="All"
+                        TextColor="White"
+                        FontSize="Medium"
+                        Margin="1"
+                        Padding="4"
+                        TextTransform="None"
+                        CornerRadius="23"
+                        Grid.Column="1"
+                        HeightRequest="40"
+                        Command="{Binding FilterToggle}"
+                        CommandParameter="All"
+                        />
+                </Grid>
+
                 <Label Text="Unit:"
                        TextColor="White"
                        HorizontalTextAlignment="Start"
@@ -182,6 +202,49 @@
                 /> 
                 <ListView x:Name="UnitFiltersList"
                     ItemsSource="{Binding UnitFilters, Mode=TwoWay}"
+                    Grid.Row="2"
+                    BackgroundColor="#F444"
+                    IsPullToRefreshEnabled="False"
+                    SelectionMode="None"
+                    MinimumHeightRequest="80">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid BackgroundColor="#F444"
+                                      Margin="0"
+                                      >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Text="{Binding Name}"
+                                        TextColor="{Binding TextColor}"
+                                        FontSize="Medium"
+                                        Margin="1"
+                                        Padding="4"
+                                        TextTransform="None"
+                                        CornerRadius="23"
+                                        Grid.Column = "1"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AnnouncementsViewModel}}, Path=FilterToggle}"
+                                        CommandParameter="{Binding Name}"
+                                        />
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Label Text="Category:"
+                       TextColor="White"
+                       HorizontalTextAlignment="Start"
+                       FontSize="Medium"
+                       Margin="30, 0, 30, 0"
+                       FontAttributes="Bold"
+                />
+
+                <ListView x:Name="CategoryFiltersList"
+                    ItemsSource="{Binding CategoryFilters, Mode=TwoWay}"
                     Grid.Row="2"
                     BackgroundColor="#F444"
                     IsPullToRefreshEnabled="False"
@@ -196,32 +259,17 @@
                                         <ColumnDefinition Width="2*"/>
                                         <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
-                                    <Button Text="{Binding UnitId}"
+                                    <Button Text="{Binding Name}"
                                         TextColor="{Binding TextColor}"
                                         FontSize="Medium"
-                                        Margin="3"
-                                        Padding="9"
+                                        Margin="1"
+                                        Padding="4"
                                         TextTransform="None"
                                         CornerRadius="23"
                                         Grid.Column = "1"
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AnnouncementsViewModel}}, Path=UnitFilterToggle}"
-                                        CommandParameter="{Binding UnitId}"
-                                        >
-                                        <!--<VisualStateManager.VisualStateGroups>
-                                            <VisualStateGroup x:Name="CommonStates">
-                                                <VisualState x:Name="Normal">
-                                                    <VisualState.Setters>
-                                                        <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
-                                                    </VisualState.Setters>
-                                                </VisualState>
-                                                <VisualState x:Name="Pressed">
-                                                    <VisualState.Setters>
-                                                        <Setter Property="BackgroundColor" Value="Red" />
-                                                    </VisualState.Setters>
-                                                </VisualState>
-                                            </VisualStateGroup>
-                                        </VisualStateManager.VisualStateGroups>-->
-                                    </Button>
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:AnnouncementsViewModel}}, Path=FilterToggle}"
+                                        CommandParameter="{Binding Name}"
+                                        />
                                 </Grid>
                             </ViewCell>
                         </DataTemplate>

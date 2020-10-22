@@ -12,5 +12,7 @@ namespace Uniq.Models
         public string ProfileImage { get; set; }
 
         public string TimePosted { get; set; }
+
+        public string Category { get; set; }
     }
 }

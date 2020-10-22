@@ -3,11 +3,11 @@ using MvvmHelpers;
 
 namespace Uniq.Models
 {
-    public class UnitFilter
+    public class Filter
     {
-        public string UnitId { get; set; }
+        public string Name { get; set; }
         public string SelectedIcon { get; set; }
-        public bool Status { get; set; }
+        public bool Selected { get; set; }
         public string TextColor { get; set; }
         public string BtnColor { get; set; }
 
