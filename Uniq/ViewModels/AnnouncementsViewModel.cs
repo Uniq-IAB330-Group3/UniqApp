@@ -249,7 +249,7 @@ namespace Uniq.ViewModels
             OnPropertyChanged(nameof(FilterVisible));
         }
 
-        void DisplaySortBy()
+         void DisplaySortBy()
         {
             SortByVisible = !SortByVisible;
             OnPropertyChanged(nameof(SortByVisible));
