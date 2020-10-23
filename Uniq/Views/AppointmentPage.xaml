@@ -10,6 +10,6 @@
         <TimePicker/>
         <StackLayout Padding="0,20,0,0"/>
         <Editor Placeholder="Reason for Extension" AutoSize="TextChanges"/>
-        <Button Text="Submit"/>
+        <Button Text="Submit" Command="{Binding OnTapCommand}"/>
     </StackLayout>
 </ContentPage>

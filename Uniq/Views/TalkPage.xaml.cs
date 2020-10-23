@@ -7,5 +7,9 @@ namespace Uniq.Views {
             InitializeComponent();
             BindingContext = new TalkViewModel();
         }
+
+        void MessagesListView_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e) {
+
+        }
     }
 }
