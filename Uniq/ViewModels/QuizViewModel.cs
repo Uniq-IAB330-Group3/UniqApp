@@ -3,6 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using MvvmHelpers;
+using Xamarin.Forms;
+using Uniq.Views;
 
 namespace Uniq.ViewModels
 {
@@ -10,11 +13,18 @@ namespace Uniq.ViewModels
     {
         public ObservableCollection<Quiz> Quizs { get; set; }
 
+        public Command ProfileCommand { get; }
+
         public QuizViewModel()
         {
             SetupData();
 
             Title = "Quiz";
+
+            ProfileCommand = new Command(async () =>
+            {
+                await Application.Current.MainPage.Navigation.PushAsync(new ProfileViewPage());
+            });
         }
 
         void SetupData()

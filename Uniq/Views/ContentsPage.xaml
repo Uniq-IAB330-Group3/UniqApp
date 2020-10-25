@@ -2,12 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Uniq.Views.ContentsPage"
+             xmlns:viewmodel="clr-namespace:Uniq.ViewModels"
              BackgroundColor="{StaticResource Primary}"
              Shell.NavBarIsVisible="False"
              xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              iOS:Page.UseSafeArea="true"
              xmlns:model="clr-namespace:Uniq.Models">
 
+     <ContentPage.BindingContext>
+        <viewmodel:ContentsViewModel/>
+    </ContentPage.BindingContext>
 
     <Grid BackgroundColor="#00A6FF" >
         <Grid.RowDefinitions>
@@ -39,7 +43,8 @@
                 Grid.Column = "2"
                 HeightRequest="30"
                 WidthRequest="30"
-                BackgroundColor="Transparent"/>
+                BackgroundColor="Transparent"
+                Command="{Binding ProfileCommand}"/>
             <Image Source="logo.png"
                 HorizontalOptions="Center"
                 VerticalOptions="End"

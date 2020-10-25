@@ -2,14 +2,23 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using MvvmHelpers;
 
 namespace Uniq.Views
 {
     public partial class ContentsPage : ContentPage
     {
+
+
         public ContentsPage()
         {
             InitializeComponent();
+        }
+
+        private async void ProfileCommand(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new ProfileViewPage());
+
         }
 
         private async void Button_Clicked(object sender, EventArgs e)

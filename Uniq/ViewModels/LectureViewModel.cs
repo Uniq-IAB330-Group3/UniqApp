@@ -3,6 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using MvvmHelpers;
+using Xamarin.Forms;
+using Uniq.Views;
 
 namespace Uniq.ViewModels
 {
@@ -11,11 +14,18 @@ namespace Uniq.ViewModels
 
         public ObservableCollection<Lecture> Lectures { get; set; }
 
+        public Command ProfileCommand { get; }
+
         public LectureViewModel()
         {
             SetupData();
 
             Title = "Lectures";
+
+            ProfileCommand = new Command(async () =>
+            {
+                await Application.Current.MainPage.Navigation.PushAsync(new ProfileViewPage());
+            });
         }
 
         void SetupData()
